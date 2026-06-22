@@ -1,15 +1,15 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T20:26:45.346Z",
+  "generatedAt": "2026-06-22T20:27:50.517Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono zdrowie systemu",
-        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.",
-        "at": "2026-06-22T20:17:13.215Z",
-        "atText": "22.06, 22:17",
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
+        "at": "2026-06-22T20:27:47.233Z",
+        "atText": "22.06, 22:27",
         "tone": "history"
       },
       {
@@ -20,9 +20,9 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono zgodnosc papierowych zapisow",
-        "body": "System porownal kolejke, wejscia i wyjscia. Wynik: kontrola zapisana.",
-        "at": "2026-06-22T20:16:51.713Z",
+        "title": "Ostatnio: sprawdzono zgodnosc zapisow",
+        "body": "System porownal zapisy i nie znalazl nic pilnego.",
+        "at": "2026-06-22T20:16:51.709Z",
         "atText": "22.06, 22:16",
         "tone": "history"
       },
@@ -102,10 +102,10 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono zdrowie systemu",
-        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.; 22.06, 22:17",
-        "at": "2026-06-22T20:17:13.215Z",
-        "atText": "22.06, 22:17",
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 22.06, 22:27",
+        "at": "2026-06-22T20:27:47.233Z",
+        "atText": "22.06, 22:27",
         "tone": "history"
       },
       {
@@ -116,9 +116,9 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono zgodnosc papierowych zapisow",
-        "body": "System porownal kolejke, wejscia i wyjscia. Wynik: kontrola zapisana.; 22.06, 22:16",
-        "at": "2026-06-22T20:16:51.713Z",
+        "title": "Ostatnio: sprawdzono zgodnosc zapisow",
+        "body": "System porownal zapisy i nie znalazl nic pilnego.; 22.06, 22:16",
+        "at": "2026-06-22T20:16:51.709Z",
         "atText": "22.06, 22:16",
         "tone": "history"
       }
