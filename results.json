@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T19:38:42.547Z",
+  "generatedAt": "2026-06-22T19:38:47.713Z",
   "positions": [
     {
       "name": "Banco BBVA Argentina S.A.",
@@ -31,10 +31,10 @@
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-22T19:37:52.421Z",
-        "atText": "22.06, 21:37",
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
+        "at": "2026-06-22T19:38:44.394Z",
+        "atText": "22.06, 21:38",
         "tone": "history"
       },
       {
@@ -134,10 +134,10 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 22.06, 21:37",
-        "at": "2026-06-22T19:37:52.421Z",
-        "atText": "22.06, 21:37",
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 22.06, 21:38",
+        "at": "2026-06-22T19:38:44.394Z",
+        "atText": "22.06, 21:38",
         "tone": "history"
       },
       {
@@ -163,13 +163,6 @@
           {
             "title": "173 zlecen w aktywnej kolejce",
             "body": "broker/queue: 173",
-            "at": null,
-            "atText": null,
-            "tone": "normal"
-          },
-          {
-            "title": "1 blokad gate",
-            "body": "Market calendar is missing or stale.",
             "at": null,
             "atText": null,
             "tone": "normal"
