@@ -1,22 +1,22 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T20:38:56.935Z",
+  "generatedAt": "2026-06-22T20:42:24.920Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
+      {
+        "title": "Ostatnio: wykonano zadanie systemowe",
+        "body": "System wykonal zaplanowane zadanie. Wynik: gotowe.",
+        "at": "2026-06-22T20:39:08.075Z",
+        "atText": "22.06, 22:39",
+        "tone": "history"
+      },
       {
         "title": "Ostatnio: sprawdzono kalendarz rynku",
         "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
         "at": "2026-06-22T20:38:53.638Z",
         "atText": "22.06, 22:38",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono zdrowie systemu",
-        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.",
-        "at": "2026-06-22T20:32:02.371Z",
-        "atText": "22.06, 22:32",
         "tone": "history"
       },
       {
@@ -85,17 +85,17 @@
     ],
     "recentActivity": [
       {
+        "title": "Ostatnio: wykonano zadanie systemowe",
+        "body": "System wykonal zaplanowane zadanie. Wynik: gotowe.; 22.06, 22:39",
+        "at": "2026-06-22T20:39:08.075Z",
+        "atText": "22.06, 22:39",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono kalendarz rynku",
         "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 22.06, 22:38",
         "at": "2026-06-22T20:38:53.638Z",
         "atText": "22.06, 22:38",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono zdrowie systemu",
-        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.; 22.06, 22:32",
-        "at": "2026-06-22T20:32:02.371Z",
-        "atText": "22.06, 22:32",
         "tone": "history"
       },
       {
