@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T19:55:28.737Z",
+  "generatedAt": "2026-06-22T19:56:15.280Z",
   "positions": [
     {
       "name": "Banco BBVA Argentina S.A.",
@@ -52,13 +52,6 @@
         "tone": "history"
       },
       {
-        "title": "Price checks",
-        "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
-        "at": "2026-06-22T19:56:00.000Z",
-        "atText": "22.06, 21:56",
-        "tone": "normal"
-      },
-      {
         "title": "Wygasaja zlecenia (51)",
         "body": "Tickery: APGE, ATO, AVGO, B, BAH, BRSL, BRSYF, BWAY, CDIX, CMND, COFS, CRH +39. LGHL: kandydat do kontroli ceny, ostatnia cena 0.623100; YPF: kandydat do kontroli ceny, ostatnia cena 49.400000; MANU: kandydat do kontr...",
         "at": "2026-06-22T20:00:00.000Z",
@@ -105,6 +98,13 @@
         "body": "Drugi skan dnia przed sesja/na starcie aktywnosci.",
         "at": "2026-06-23T12:20:00.000Z",
         "atText": "23.06, 14:20",
+        "tone": "normal"
+      },
+      {
+        "title": "Price checks",
+        "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
+        "at": "2026-06-23T13:00:00.000Z",
+        "atText": "23.06, 15:00",
         "tone": "normal"
       },
       {
