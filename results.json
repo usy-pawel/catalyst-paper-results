@@ -1,54 +1,29 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T20:10:19.291Z",
-  "positions": [
-    {
-      "name": "Banco BBVA Argentina S.A.",
-      "ticker": "BBAR",
-      "status": "open",
-      "resultPercent": -4.44,
-      "resultPercentText": "-4.44%",
-      "priceCapturedAt": "2026-06-22T19:58:56.290Z"
-    },
-    {
-      "name": "Banco BBVA Argentina S.A.",
-      "ticker": "BBAR",
-      "status": "open",
-      "resultPercent": -4.44,
-      "resultPercentText": "-4.44%",
-      "priceCapturedAt": "2026-06-22T19:58:56.290Z"
-    },
-    {
-      "name": "CENTRUS ENERGY CORP",
-      "ticker": "LEU",
-      "status": "open",
-      "resultPercent": 1.48,
-      "resultPercentText": "1.48%",
-      "priceCapturedAt": "2026-06-22T19:58:56.109Z"
-    }
-  ],
+  "generatedAt": "2026-06-22T20:13:50.294Z",
+  "positions": [],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko MANU",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
-        "at": "2026-06-22T19:58:55.985Z",
-        "atText": "22.06, 21:58",
+        "title": "Ostatnio: sprawdzono zdrowie systemu",
+        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.",
+        "at": "2026-06-22T20:13:43.128Z",
+        "atText": "22.06, 22:13",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko JPM",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
-        "at": "2026-06-22T19:58:55.692Z",
-        "atText": "22.06, 21:58",
+        "title": "Ostatnio: sprawdzono zdrowie aplikacji",
+        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.",
+        "at": "2026-06-22T20:13:43.125Z",
+        "atText": "22.06, 22:13",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko VYLD",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
-        "at": "2026-06-22T19:58:55.410Z",
-        "atText": "22.06, 21:58",
+        "title": "Ostatnio: sprawdzono bezpieczenstwo trybu papierowego",
+        "body": "System upewnil sie, ze aplikacja nadal nie jest gotowa do realnego brokera bez zgody.",
+        "at": "2026-06-22T20:13:30.749Z",
+        "atText": "22.06, 22:13",
         "tone": "history"
       },
       {
@@ -127,24 +102,24 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko MANU",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:58",
-        "at": "2026-06-22T19:58:55.985Z",
-        "atText": "22.06, 21:58",
+        "title": "Ostatnio: sprawdzono zdrowie systemu",
+        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.; 22.06, 22:13",
+        "at": "2026-06-22T20:13:43.128Z",
+        "atText": "22.06, 22:13",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko JPM",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:58",
-        "at": "2026-06-22T19:58:55.692Z",
-        "atText": "22.06, 21:58",
+        "title": "Ostatnio: sprawdzono zdrowie aplikacji",
+        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.; 22.06, 22:13",
+        "at": "2026-06-22T20:13:43.125Z",
+        "atText": "22.06, 22:13",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko VYLD",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:58",
-        "at": "2026-06-22T19:58:55.410Z",
-        "atText": "22.06, 21:58",
+        "title": "Ostatnio: sprawdzono bezpieczenstwo trybu papierowego",
+        "body": "System upewnil sie, ze aplikacja nadal nie jest gotowa do realnego brokera bez zgody.; 22.06, 22:13",
+        "at": "2026-06-22T20:13:30.749Z",
+        "atText": "22.06, 22:13",
         "tone": "history"
       }
     ],
