@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T20:03:17.267Z",
+  "generatedAt": "2026-06-22T20:06:48.318Z",
   "positions": [
     {
       "name": "Banco BBVA Argentina S.A.",
@@ -50,13 +50,6 @@
         "at": "2026-06-22T19:58:55.692Z",
         "atText": "22.06, 21:58",
         "tone": "history"
-      },
-      {
-        "title": "End of day",
-        "body": "Domkniecie dnia, wyjscia i raportowanie po sesji.",
-        "at": "2026-06-22T20:05:00.000Z",
-        "atText": "22.06, 22:05",
-        "tone": "normal"
       },
       {
         "title": "Odswiezenie kalendarza rynku",
@@ -123,6 +116,13 @@
         "groupKey": "order-expiry",
         "ticker": "TOP",
         "summary": "kandydat do kontroli ceny, limit 1.333000, ostatnia cena 1.380000"
+      },
+      {
+        "title": "End of day",
+        "body": "Domkniecie dnia, wyjscia i raportowanie po sesji.",
+        "at": "2026-06-23T20:05:00.000Z",
+        "atText": "23.06, 22:05",
+        "tone": "normal"
       }
     ],
     "recentActivity": [
