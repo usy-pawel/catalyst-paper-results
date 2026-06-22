@@ -1,54 +1,54 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T19:39:50.031Z",
+  "generatedAt": "2026-06-22T19:41:29.666Z",
   "positions": [
     {
       "name": "Banco BBVA Argentina S.A.",
       "ticker": "BBAR",
       "status": "open",
-      "resultPercent": -4.14,
-      "resultPercentText": "-4.14%",
-      "priceCapturedAt": "2026-06-22T19:37:52.418Z"
+      "resultPercent": -4.1,
+      "resultPercentText": "-4.10%",
+      "priceCapturedAt": "2026-06-22T19:41:29.654Z"
     },
     {
       "name": "Banco BBVA Argentina S.A.",
       "ticker": "BBAR",
       "status": "open",
-      "resultPercent": -4.14,
-      "resultPercentText": "-4.14%",
-      "priceCapturedAt": "2026-06-22T19:37:52.418Z"
+      "resultPercent": -4.1,
+      "resultPercentText": "-4.10%",
+      "priceCapturedAt": "2026-06-22T19:41:29.654Z"
     },
     {
       "name": "CENTRUS ENERGY CORP",
       "ticker": "LEU",
       "status": "open",
-      "resultPercent": 0.54,
-      "resultPercentText": "0.54%",
-      "priceCapturedAt": "2026-06-22T19:37:52.182Z"
+      "resultPercent": 0.79,
+      "resultPercentText": "0.79%",
+      "priceCapturedAt": "2026-06-22T19:41:29.484Z"
     }
   ],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
-        "at": "2026-06-22T19:38:44.394Z",
-        "atText": "22.06, 21:38",
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
+        "at": "2026-06-22T19:41:29.657Z",
+        "atText": "22.06, 21:41",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko RKT",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
+        "at": "2026-06-22T19:41:29.311Z",
+        "atText": "22.06, 21:41",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko JPM",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
-        "at": "2026-06-22T19:37:51.959Z",
-        "atText": "22.06, 21:37",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko GRO",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
-        "at": "2026-06-22T19:37:51.614Z",
-        "atText": "22.06, 21:37",
+        "at": "2026-06-22T19:41:29.221Z",
+        "atText": "22.06, 21:41",
         "tone": "history"
       },
       {
@@ -60,7 +60,7 @@
       },
       {
         "title": "Wygasaja zlecenia (51)",
-        "body": "Tickery: APGE, ATO, AVGO, B, BAH, BRSL, BRSYF, BWAY, CDIX, CMND, COFS, CRH +39. LGHL: kandydat do kontroli ceny, ostatnia cena 0.600300; YPF: kandydat do kontroli ceny, ostatnia cena 49.570000; MANU: kandydat do kontr...",
+        "body": "Tickery: APGE, ATO, AVGO, B, BAH, BRSL, BRSYF, BWAY, CDIX, CMND, COFS, CRH +39. LGHL: kandydat do kontroli ceny, ostatnia cena 0.600300; YPF: kandydat do kontroli ceny, ostatnia cena 49.480000; MANU: kandydat do kontr...",
         "at": "2026-06-22T20:00:00.000Z",
         "atText": "22.06, 22:00",
         "tone": "normal"
@@ -116,42 +116,42 @@
       },
       {
         "title": "Wygasaja zlecenia (49)",
-        "body": "Tickery: AIIO, APGE, ATO, AVGO, B, BAH, BBAR, BRSL, BRSYF, BWAY, CDIX, CMND +37. SOC: kandydat do kontroli ceny, ostatnia cena 9.315000; BAH: kandydat do kontroli ceny, ostatnia cena 63.585000; APGE: kandydat do kontr...",
+        "body": "Tickery: AIIO, APGE, ATO, AVGO, B, BAH, BBAR, BRSL, BRSYF, BWAY, CDIX, CMND +37. SOC: kandydat do kontroli ceny, ostatnia cena 9.305000; BAH: kandydat do kontroli ceny, ostatnia cena 63.615000; APGE: kandydat do kontr...",
         "at": "2026-06-23T13:30:00.000Z",
         "atText": "23.06, 15:30",
         "tone": "normal"
       },
       {
         "title": "Wygasa zlecenie TOP",
-        "body": "kandydat do kontroli ceny; limit 1.333000, ostatnia cena 1.379000",
+        "body": "kandydat do kontroli ceny; limit 1.333000, ostatnia cena 1.370000",
         "at": "2026-06-23T13:43:06.909Z",
         "atText": "23.06, 15:43",
         "tone": "normal",
         "groupKey": "order-expiry",
         "ticker": "TOP",
-        "summary": "kandydat do kontroli ceny, limit 1.333000, ostatnia cena 1.379000"
+        "summary": "kandydat do kontroli ceny, limit 1.333000, ostatnia cena 1.370000"
       }
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 22.06, 21:38",
-        "at": "2026-06-22T19:38:44.394Z",
-        "atText": "22.06, 21:38",
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 22.06, 21:41",
+        "at": "2026-06-22T19:41:29.657Z",
+        "atText": "22.06, 21:41",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko RKT",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:41",
+        "at": "2026-06-22T19:41:29.311Z",
+        "atText": "22.06, 21:41",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko JPM",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:37",
-        "at": "2026-06-22T19:37:51.959Z",
-        "atText": "22.06, 21:37",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko GRO",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:37",
-        "at": "2026-06-22T19:37:51.614Z",
-        "atText": "22.06, 21:37",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:41",
+        "at": "2026-06-22T19:41:29.221Z",
+        "atText": "22.06, 21:41",
         "tone": "history"
       }
     ],
@@ -163,13 +163,6 @@
           {
             "title": "173 zlecen w aktywnej kolejce",
             "body": "broker/queue: 173",
-            "at": null,
-            "atText": null,
-            "tone": "normal"
-          },
-          {
-            "title": "1 blokad gate",
-            "body": "Market calendar is missing or stale.",
             "at": null,
             "atText": null,
             "tone": "normal"
