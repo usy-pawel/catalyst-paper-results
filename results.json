@@ -1,31 +1,31 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T19:42:11.566Z",
+  "generatedAt": "2026-06-22T19:44:57.745Z",
   "positions": [
     {
       "name": "Banco BBVA Argentina S.A.",
       "ticker": "BBAR",
       "status": "open",
-      "resultPercent": -4.1,
-      "resultPercentText": "-4.10%",
-      "priceCapturedAt": "2026-06-22T19:41:29.654Z"
+      "resultPercent": -4.44,
+      "resultPercentText": "-4.44%",
+      "priceCapturedAt": "2026-06-22T19:44:57.738Z"
     },
     {
       "name": "Banco BBVA Argentina S.A.",
       "ticker": "BBAR",
       "status": "open",
-      "resultPercent": -4.1,
-      "resultPercentText": "-4.10%",
-      "priceCapturedAt": "2026-06-22T19:41:29.654Z"
+      "resultPercent": -4.44,
+      "resultPercentText": "-4.44%",
+      "priceCapturedAt": "2026-06-22T19:44:57.738Z"
     },
     {
       "name": "CENTRUS ENERGY CORP",
       "ticker": "LEU",
       "status": "open",
-      "resultPercent": 0.79,
-      "resultPercentText": "0.79%",
-      "priceCapturedAt": "2026-06-22T19:41:29.484Z"
+      "resultPercent": 0.38,
+      "resultPercentText": "0.38%",
+      "priceCapturedAt": "2026-06-22T19:44:57.515Z"
     }
   ],
   "dashboard": {
@@ -33,22 +33,22 @@
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-22T19:41:29.657Z",
-        "atText": "22.06, 21:41",
+        "at": "2026-06-22T19:44:57.741Z",
+        "atText": "22.06, 21:44",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko VYLD",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
+        "at": "2026-06-22T19:44:57.347Z",
+        "atText": "22.06, 21:44",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko RKT",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
-        "at": "2026-06-22T19:41:29.311Z",
-        "atText": "22.06, 21:41",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko JPM",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
-        "at": "2026-06-22T19:41:29.221Z",
-        "atText": "22.06, 21:41",
+        "at": "2026-06-22T19:44:57.194Z",
+        "atText": "22.06, 21:44",
         "tone": "history"
       },
       {
@@ -60,7 +60,7 @@
       },
       {
         "title": "Wygasaja zlecenia (51)",
-        "body": "Tickery: APGE, ATO, AVGO, B, BAH, BRSL, BRSYF, BWAY, CDIX, CMND, COFS, CRH +39. LGHL: kandydat do kontroli ceny, ostatnia cena 0.600300; YPF: kandydat do kontroli ceny, ostatnia cena 49.480000; MANU: kandydat do kontr...",
+        "body": "Tickery: APGE, ATO, AVGO, B, BAH, BRSL, BRSYF, BWAY, CDIX, CMND, COFS, CRH +39. LGHL: kandydat do kontroli ceny, ostatnia cena 0.600300; YPF: kandydat do kontroli ceny, ostatnia cena 49.355000; MANU: kandydat do kontr...",
         "at": "2026-06-22T20:00:00.000Z",
         "atText": "22.06, 22:00",
         "tone": "normal"
@@ -116,42 +116,42 @@
       },
       {
         "title": "Wygasaja zlecenia (49)",
-        "body": "Tickery: AIIO, APGE, ATO, AVGO, B, BAH, BBAR, BRSL, BRSYF, BWAY, CDIX, CMND +37. SOC: kandydat do kontroli ceny, ostatnia cena 9.305000; BAH: kandydat do kontroli ceny, ostatnia cena 63.615000; APGE: kandydat do kontr...",
+        "body": "Tickery: AIIO, APGE, ATO, AVGO, B, BAH, BBAR, BRSL, BRSYF, BWAY, CDIX, CMND +37. SOC: kandydat do kontroli ceny, ostatnia cena 9.244000; BAH: kandydat do kontroli ceny, ostatnia cena 63.760000; APGE: kandydat do kontr...",
         "at": "2026-06-23T13:30:00.000Z",
         "atText": "23.06, 15:30",
         "tone": "normal"
       },
       {
         "title": "Wygasa zlecenie TOP",
-        "body": "kandydat do kontroli ceny; limit 1.333000, ostatnia cena 1.370000",
+        "body": "kandydat do kontroli ceny; limit 1.333000, ostatnia cena 1.380000",
         "at": "2026-06-23T13:43:06.909Z",
         "atText": "23.06, 15:43",
         "tone": "normal",
         "groupKey": "order-expiry",
         "ticker": "TOP",
-        "summary": "kandydat do kontroli ceny, limit 1.333000, ostatnia cena 1.370000"
+        "summary": "kandydat do kontroli ceny, limit 1.333000, ostatnia cena 1.380000"
       }
     ],
     "recentActivity": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 22.06, 21:41",
-        "at": "2026-06-22T19:41:29.657Z",
-        "atText": "22.06, 21:41",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 22.06, 21:44",
+        "at": "2026-06-22T19:44:57.741Z",
+        "atText": "22.06, 21:44",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko VYLD",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:44",
+        "at": "2026-06-22T19:44:57.347Z",
+        "atText": "22.06, 21:44",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko RKT",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:41",
-        "at": "2026-06-22T19:41:29.311Z",
-        "atText": "22.06, 21:41",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko JPM",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:41",
-        "at": "2026-06-22T19:41:29.221Z",
-        "atText": "22.06, 21:41",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:44",
+        "at": "2026-06-22T19:44:57.194Z",
+        "atText": "22.06, 21:44",
         "tone": "history"
       }
     ],
