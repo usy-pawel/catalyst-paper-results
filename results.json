@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T20:06:48.318Z",
+  "generatedAt": "2026-06-22T20:10:19.291Z",
   "positions": [
     {
       "name": "Banco BBVA Argentina S.A.",
@@ -31,13 +31,6 @@
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-22T19:58:56.292Z",
-        "atText": "22.06, 21:58",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko MANU",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
         "at": "2026-06-22T19:58:55.985Z",
@@ -48,6 +41,13 @@
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko JPM",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
         "at": "2026-06-22T19:58:55.692Z",
+        "atText": "22.06, 21:58",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko VYLD",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
+        "at": "2026-06-22T19:58:55.410Z",
         "atText": "22.06, 21:58",
         "tone": "history"
       },
@@ -127,13 +127,6 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 22.06, 21:58",
-        "at": "2026-06-22T19:58:56.292Z",
-        "atText": "22.06, 21:58",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko MANU",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:58",
         "at": "2026-06-22T19:58:55.985Z",
@@ -144,6 +137,13 @@
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko JPM",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:58",
         "at": "2026-06-22T19:58:55.692Z",
+        "atText": "22.06, 21:58",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko VYLD",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:58",
+        "at": "2026-06-22T19:58:55.410Z",
         "atText": "22.06, 21:58",
         "tone": "history"
       }
