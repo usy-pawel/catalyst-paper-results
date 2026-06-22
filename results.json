@@ -1,29 +1,29 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T20:16:10.991Z",
+  "generatedAt": "2026-06-22T20:19:37.123Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
-        "at": "2026-06-22T20:16:07.815Z",
+        "title": "Ostatnio: sprawdzono zdrowie systemu",
+        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.",
+        "at": "2026-06-22T20:17:13.215Z",
+        "atText": "22.06, 22:17",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono zdrowie aplikacji",
+        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.",
+        "at": "2026-06-22T20:17:13.212Z",
+        "atText": "22.06, 22:17",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono bezpieczenstwo trybu papierowego",
+        "body": "System upewnil sie, ze aplikacja nadal nie jest gotowa do realnego brokera bez zgody.",
+        "at": "2026-06-22T20:16:53.645Z",
         "atText": "22.06, 22:16",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono zgodnosc papierowych zapisow",
-        "body": "System porownal kolejke, wejscia i wyjscia. Wynik: kontrola zapisana.",
-        "at": "2026-06-22T20:13:50.934Z",
-        "atText": "22.06, 22:13",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono zgodnosc zapisow",
-        "body": "System porownal zapisy i znalazl cos do sprawdzenia.",
-        "at": "2026-06-22T20:13:50.929Z",
-        "atText": "22.06, 22:13",
         "tone": "history"
       },
       {
@@ -102,24 +102,24 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 22.06, 22:16",
-        "at": "2026-06-22T20:16:07.815Z",
+        "title": "Ostatnio: sprawdzono zdrowie systemu",
+        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.; 22.06, 22:17",
+        "at": "2026-06-22T20:17:13.215Z",
+        "atText": "22.06, 22:17",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono zdrowie aplikacji",
+        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.; 22.06, 22:17",
+        "at": "2026-06-22T20:17:13.212Z",
+        "atText": "22.06, 22:17",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono bezpieczenstwo trybu papierowego",
+        "body": "System upewnil sie, ze aplikacja nadal nie jest gotowa do realnego brokera bez zgody.; 22.06, 22:16",
+        "at": "2026-06-22T20:16:53.645Z",
         "atText": "22.06, 22:16",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono zgodnosc papierowych zapisow",
-        "body": "System porownal kolejke, wejscia i wyjscia. Wynik: kontrola zapisana.; 22.06, 22:13",
-        "at": "2026-06-22T20:13:50.934Z",
-        "atText": "22.06, 22:13",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono zgodnosc zapisow",
-        "body": "System porownal zapisy i znalazl cos do sprawdzenia.; 22.06, 22:13",
-        "at": "2026-06-22T20:13:50.929Z",
-        "atText": "22.06, 22:13",
         "tone": "history"
       }
     ],
@@ -129,8 +129,8 @@
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
         "items": [
           {
-            "title": "173 zlecen w aktywnej kolejce",
-            "body": "broker/queue: 173",
+            "title": "83 zlecen w aktywnej kolejce",
+            "body": "broker/queue: 83",
             "at": null,
             "atText": null,
             "tone": "normal"
