@@ -1,31 +1,31 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T17:48:38.264Z",
+  "generatedAt": "2026-06-22T17:51:56.348Z",
   "positions": [
     {
       "name": "Banco BBVA Argentina S.A.",
       "ticker": "BBAR",
       "status": "open",
-      "resultPercent": -4.23,
-      "resultPercentText": "-4.23%",
-      "priceCapturedAt": "2026-06-22T17:48:20.664Z"
+      "resultPercent": -4.17,
+      "resultPercentText": "-4.17%",
+      "priceCapturedAt": "2026-06-22T17:51:56.337Z"
     },
     {
       "name": "Banco BBVA Argentina S.A.",
       "ticker": "BBAR",
       "status": "open",
-      "resultPercent": -4.23,
-      "resultPercentText": "-4.23%",
-      "priceCapturedAt": "2026-06-22T17:48:20.664Z"
+      "resultPercent": -4.17,
+      "resultPercentText": "-4.17%",
+      "priceCapturedAt": "2026-06-22T17:51:56.337Z"
     },
     {
       "name": "CENTRUS ENERGY CORP",
       "ticker": "LEU",
       "status": "open",
-      "resultPercent": 0.39,
-      "resultPercentText": "0.39%",
-      "priceCapturedAt": "2026-06-22T17:48:20.465Z"
+      "resultPercent": 0.78,
+      "resultPercentText": "0.78%",
+      "priceCapturedAt": "2026-06-22T17:51:56.102Z"
     }
   ]
 }
