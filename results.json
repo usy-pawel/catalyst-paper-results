@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T19:37:52.432Z",
+  "generatedAt": "2026-06-22T19:38:42.547Z",
   "positions": [
     {
       "name": "Banco BBVA Argentina S.A.",
@@ -31,13 +31,6 @@
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: opublikowano publiczne wyniki",
-        "body": "System jeszcze nad tym pracuje.",
-        "at": "2026-06-22T19:37:52.430Z",
-        "atText": "22.06, 21:37",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
         "at": "2026-06-22T19:37:52.421Z",
@@ -48,6 +41,13 @@
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko JPM",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
         "at": "2026-06-22T19:37:51.959Z",
+        "atText": "22.06, 21:37",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko GRO",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
+        "at": "2026-06-22T19:37:51.614Z",
         "atText": "22.06, 21:37",
         "tone": "history"
       },
@@ -134,13 +134,6 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: opublikowano publiczne wyniki",
-        "body": "System jeszcze nad tym pracuje.; 22.06, 21:37",
-        "at": "2026-06-22T19:37:52.430Z",
-        "atText": "22.06, 21:37",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 22.06, 21:37",
         "at": "2026-06-22T19:37:52.421Z",
@@ -153,6 +146,13 @@
         "at": "2026-06-22T19:37:51.959Z",
         "atText": "22.06, 21:37",
         "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko GRO",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 22.06, 21:37",
+        "at": "2026-06-22T19:37:51.614Z",
+        "atText": "22.06, 21:37",
+        "tone": "history"
       }
     ],
     "lanes": [
@@ -163,6 +163,13 @@
           {
             "title": "173 zlecen w aktywnej kolejce",
             "body": "broker/queue: 173",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          },
+          {
+            "title": "1 blokad gate",
+            "body": "Market calendar is missing or stale.",
             "at": null,
             "atText": null,
             "tone": "normal"
