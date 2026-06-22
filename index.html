@@ -11,6 +11,8 @@
     main { max-width:680px; margin:0 auto; }
     h1 { margin:0 0 6px; font-size:26px; letter-spacing:0; }
     .meta { margin:0 0 18px; color:#536071; font-size:13px; }
+    .refresh { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 18px; color:#536071; font-size:13px; }
+    .refresh b { font-size:13px; color:#087443; }
     .list { display:grid; gap:10px; }
     .row { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:16px; align-items:center; background:#fff; border:1px solid #d9deea; border-radius:8px; padding:14px 16px; }
     strong { display:block; font-size:16px; line-height:1.25; }
@@ -25,30 +27,74 @@
 <body>
   <main>
     <h1>Paper Results</h1>
-    <p class="meta">Updated 2026-06-22T15:46:12.197Z</p>
-    <section class="list">
+    <p class="meta" data-updated>Updated 2026-06-22T15:58:40.653Z</p>
+    <p class="refresh"><b data-refresh-state>Auto refresh on</b><span>updates from results.json every 5 minutes</span></p>
+    <section class="list" data-results-list>
         <div class="row">
           <div>
             <strong>Banco BBVA Argentina S.A.</strong>
             <span>BBAR</span>
           </div>
-          <b class="neg">-4.71%</b>
+          <b class="neg">-4.89%</b>
         </div>
         <div class="row">
           <div>
             <strong>Banco BBVA Argentina S.A.</strong>
             <span>BBAR</span>
           </div>
-          <b class="neg">-4.71%</b>
+          <b class="neg">-4.89%</b>
         </div>
         <div class="row">
           <div>
             <strong>CENTRUS ENERGY CORP</strong>
             <span>LEU</span>
           </div>
-          <b class="neg">-1.27%</b>
+          <b class="neg">-0.71%</b>
         </div></section>
     <footer>Simulation only. No real broker connection.</footer>
   </main>
+  <script>
+    const list = document.querySelector("[data-results-list]");
+    const updated = document.querySelector("[data-updated]");
+    const refreshState = document.querySelector("[data-refresh-state]");
+    const escapeText = (value) => String(value ?? "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+    const renderPosition = (position) => {
+      const result = Number(position.resultPercent ?? 0);
+      const resultClass = result >= 0 ? "pos" : "neg";
+      return `
+        <div class="row">
+          <div>
+            <strong>${escapeText(position.name)}</strong>
+            <span>${escapeText(position.ticker)}</span>
+          </div>
+          <b class="${resultClass}">${escapeText(position.resultPercentText)}</b>
+        </div>`;
+    };
+    const renderSnapshot = (snapshot) => {
+      updated.textContent = `Updated ${snapshot.generatedAt}`;
+      list.innerHTML = snapshot.positions.length
+        ? snapshot.positions.map(renderPosition).join("")
+        : '<p class="empty">No open paper positions.</p>';
+    };
+    const refreshResults = async () => {
+      try {
+        refreshState.textContent = "Refreshing";
+        const response = await fetch(`results.json?t=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        renderSnapshot(await response.json());
+        refreshState.textContent = "Auto refresh on";
+      } catch (error) {
+        refreshState.textContent = "Refresh delayed";
+        console.warn("Public results refresh failed", error);
+      }
+    };
+    setTimeout(refreshResults, 15000);
+    setInterval(refreshResults, 300000);
+  </script>
 </body>
 </html>
