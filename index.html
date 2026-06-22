@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,7 @@
 <body>
   <main>
     <h1>Paper Results</h1>
-    <p class="meta" data-updated>Updated 2026-06-22T16:23:41.850Z</p>
+    <p class="meta" data-updated>Ostatnia aktualizacja: 22.06.2026, 18:26:22 czasu polskiego</p>
     <p class="refresh"><b data-refresh-state>Auto refresh on</b><span>synced with simple dashboard, every 3.5 minutes</span></p>
     <section class="list" data-results-list>
         <div class="row">
@@ -76,10 +76,24 @@
         </div>`;
     };
     const renderSnapshot = (snapshot) => {
-      updated.textContent = `Updated ${snapshot.generatedAt}`;
+      updated.textContent = `Ostatnia aktualizacja: ${formatPolishDateTime(snapshot.generatedAt)}`;
       list.innerHTML = snapshot.positions.length
         ? snapshot.positions.map(renderPosition).join("")
         : '<p class="empty">No open paper positions.</p>';
+    };
+    const formatPolishDateTime = (value) => {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return String(value ?? "");
+      return new Intl.DateTimeFormat("pl-PL", {
+        timeZone: "Europe/Warsaw",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false
+      }).format(date) + " czasu polskiego";
     };
     const refreshResults = async () => {
       try {
