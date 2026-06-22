@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T19:38:47.713Z",
+  "generatedAt": "2026-06-22T19:39:50.031Z",
   "positions": [
     {
       "name": "Banco BBVA Argentina S.A.",
@@ -163,6 +163,13 @@
           {
             "title": "173 zlecen w aktywnej kolejce",
             "body": "broker/queue: 173",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          },
+          {
+            "title": "1 blokad gate",
+            "body": "Market calendar is missing or stale.",
             "at": null,
             "atText": null,
             "tone": "normal"
