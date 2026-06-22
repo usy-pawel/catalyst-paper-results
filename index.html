@@ -27,7 +27,7 @@
 <body>
   <main>
     <h1>Paper Results</h1>
-    <p class="meta" data-updated>Updated 2026-06-22T16:17:08.259Z</p>
+    <p class="meta" data-updated>Updated 2026-06-22T16:18:30.850Z</p>
     <p class="refresh"><b data-refresh-state>Auto refresh on</b><span>synced with simple dashboard, every 3.5 minutes</span></p>
     <section class="list" data-results-list>
         <div class="row">
@@ -84,11 +84,16 @@
     const refreshResults = async () => {
       try {
         refreshState.textContent = "Refreshing";
-        const resultsJsonUrl = "https://raw.githubusercontent.com/usy-pawel/catalyst-paper-results/main/results.json";
+        const resultsJsonUrl = "https://api.github.com/repos/usy-pawel/catalyst-paper-results/contents/results.json?ref=main";
+        const resultsJsonSource = "github_api";
         const separator = resultsJsonUrl.includes("?") ? "&" : "?";
         const response = await fetch(`${resultsJsonUrl}${separator}t=${Date.now()}`, { cache: "no-store" });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        renderSnapshot(await response.json());
+        const payload = await response.json();
+        const snapshot = resultsJsonSource === "github_api"
+          ? JSON.parse(atob(String(payload.content ?? "").replace(/\s/g, "")))
+          : payload;
+        renderSnapshot(snapshot);
         refreshState.textContent = "Auto refresh on";
       } catch (error) {
         refreshState.textContent = "Refresh delayed";
