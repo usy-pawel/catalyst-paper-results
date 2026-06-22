@@ -12,17 +12,24 @@
     .meta { margin:0 0 18px; color:#536071; font-size:13px; }
     .list { display:grid; gap:10px; }
     .row { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:16px; align-items:center; background:#fff; border:1px solid #d9deea; border-radius:8px; padding:14px 16px; }
-    strong { display:block; font-size:16px; line-height:1.25; }
-    span { display:block; margin-top:3px; color:#536071; font-size:13px; }
-    b { font-size:24px; line-height:1; white-space:nowrap; }
+    .row strong { display:block; font-size:16px; line-height:1.25; }
+    .row span { display:block; margin-top:3px; color:#536071; font-size:13px; }
+    .row b { font-size:24px; line-height:1; white-space:nowrap; }
     .pos { color:#087443; }
     .neg { color:#b42318; }
     .empty { margin:0; background:#fff; border:1px solid #d9deea; border-radius:8px; padding:16px; color:#536071; }
+    .status-bar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:18px; }
+    .status-chip { display:inline-flex; align-items:center; gap:6px; min-height:24px; padding:0 8px; border:1px solid #c8d3e1; border-radius:999px; background:#fff; color:#253246; font-size:12px; font-weight:800; white-space:nowrap; }
+    .status-chip i { width:7px; height:7px; border-radius:999px; background:#087443; box-shadow:0 0 0 0 rgba(8,116,67,.42); animation:ledBlink 1s infinite; flex:0 0 auto; }
+    .status-chip b { font-size:12px; line-height:1; letter-spacing:0; }
+    .status-chip span { display:inline; margin:0; color:inherit; font-size:12px; }
+    .status-chip.is-alarm i, .status-chip.is-due i { background:#b42318; box-shadow:0 0 0 0 rgba(180,35,24,.42); }
+    @keyframes ledBlink { 0%,100% { opacity:.35; box-shadow:0 0 0 0 currentColor; } 50% { opacity:1; box-shadow:0 0 0 4px rgba(8,116,67,.12); } }
   </style>
 </head>
 <body>
   <main>
-    <p class="meta" data-updated>Ostatnia aktualizacja: 22.06.2026, 21:26:39</p>
+    <p class="meta" data-updated>Ostatnia aktualizacja: 22.06.2026, 21:27:45</p>
     <section class="list" data-results-list>
         <div class="row">
           <div>
@@ -45,10 +52,29 @@
           </div>
           <b class="pos">0.59%</b>
         </div></section>
+    <section class="status-bar" aria-label="Status">
+      <span class="status-chip" title="Auto-refresh" data-refresh-countdown data-next-refresh-at="2026-06-22T19:31:15.583Z">
+        <i aria-hidden="true"></i>
+        <span>Auto-refresh</span>
+        <b data-countdown>--:--</b>
+      </span>
+      <span class="status-chip" title="Alarm" data-alarm-state>
+        <i aria-hidden="true"></i>
+        <span data-alarm-text>Alarm OK</span>
+      </span>
+    </section>
   </main>
   <script>
     const list = document.querySelector("[data-results-list]");
     const updated = document.querySelector("[data-updated]");
+    const refreshBox = document.querySelector("[data-refresh-countdown]");
+    const countdown = document.querySelector("[data-countdown]");
+    const alarmState = document.querySelector("[data-alarm-state]");
+    const alarmText = document.querySelector("[data-alarm-text]");
+    const refreshIntervalMs = 210000;
+    let currentGeneratedAt = "2026-06-22T19:27:45.583Z";
+    let nextRefreshAt = Date.parse(refreshBox?.getAttribute("data-next-refresh-at") || "");
+    let refreshError = false;
     const escapeText = (value) => String(value ?? "")
       .replaceAll("&", "&amp;")
       .replaceAll("<", "&lt;")
@@ -72,6 +98,8 @@
       list.innerHTML = snapshot.positions.length
         ? snapshot.positions.map(renderPosition).join("")
         : '<p class="empty">No open paper positions.</p>';
+      refreshError = false;
+      syncRefreshStatus(snapshot.generatedAt);
     };
     const formatPolishDateTime = (value) => {
       const date = new Date(value);
@@ -87,6 +115,49 @@
         hour12: false
       }).format(date);
     };
+    const formatDuration = (ms) => {
+      const total = Math.max(0, Math.ceil(ms / 1000));
+      const minutes = Math.floor(total / 60);
+      const seconds = total % 60;
+      return String(minutes).padStart(2, "0") + ":" + String(seconds).padStart(2, "0");
+    };
+    const nextRefreshTime = (value) => {
+      const base = Date.parse(value);
+      if (Number.isNaN(base)) return Date.now() + refreshIntervalMs;
+      const now = Date.now();
+      if (base > now) return base + refreshIntervalMs;
+      return base + (Math.floor((now - base) / refreshIntervalMs) + 1) * refreshIntervalMs;
+    };
+    const setAlarm = (text, active) => {
+      if (!alarmState || !alarmText) return;
+      alarmText.textContent = text;
+      alarmState.classList.toggle("is-alarm", active);
+    };
+    const updateAlarm = () => {
+      if (refreshError) {
+        setAlarm("Alarm: refresh error", true);
+        return;
+      }
+      const generated = Date.parse(currentGeneratedAt || "");
+      const stale = Number.isNaN(generated) || Date.now() - generated > refreshIntervalMs * 2;
+      setAlarm(stale ? "Alarm: stale" : "Alarm OK", stale);
+    };
+    const syncRefreshStatus = (generatedAt) => {
+      currentGeneratedAt = generatedAt;
+      nextRefreshAt = nextRefreshTime(generatedAt);
+      if (refreshBox) refreshBox.setAttribute("data-next-refresh-at", new Date(nextRefreshAt).toISOString());
+      updateAlarm();
+    };
+    const tickRefreshCountdown = () => {
+      if (!refreshBox || !countdown) return;
+      if (!Number.isFinite(nextRefreshAt) || nextRefreshAt <= Date.now()) {
+        nextRefreshAt = nextRefreshTime(currentGeneratedAt);
+      }
+      const remaining = nextRefreshAt - Date.now();
+      countdown.textContent = formatDuration(remaining);
+      refreshBox.classList.toggle("is-due", remaining <= 0);
+      updateAlarm();
+    };
     const refreshResults = async () => {
       try {
         const resultsJsonUrl = "https://api.github.com/repos/usy-pawel/catalyst-paper-results/contents/results.json?ref=main";
@@ -100,9 +171,14 @@
           : payload;
         renderSnapshot(snapshot);
       } catch (error) {
+        refreshError = true;
+        updateAlarm();
         console.warn("Public results refresh failed", error);
       }
     };
+    syncRefreshStatus(currentGeneratedAt);
+    tickRefreshCountdown();
+    setInterval(tickRefreshCountdown, 1000);
     setTimeout(refreshResults, 15000);
     setInterval(refreshResults, 210000);
   </script>
