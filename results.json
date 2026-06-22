@@ -1,29 +1,29 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T20:27:50.517Z",
+  "generatedAt": "2026-06-22T20:31:08.821Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
-        "at": "2026-06-22T20:27:47.233Z",
-        "atText": "22.06, 22:27",
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
+        "at": "2026-06-22T20:31:08.632Z",
+        "atText": "22.06, 22:31",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono zdrowie aplikacji",
-        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.",
-        "at": "2026-06-22T20:17:13.212Z",
-        "atText": "22.06, 22:17",
+        "title": "Ostatnio: zapisano zdarzenie systemowe",
+        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.",
+        "at": "2026-06-22T20:31:08.605Z",
+        "atText": "22.06, 22:31",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono zgodnosc zapisow",
-        "body": "System porownal zapisy i nie znalazl nic pilnego.",
-        "at": "2026-06-22T20:16:51.709Z",
-        "atText": "22.06, 22:16",
+        "title": "Ostatnio: odrzucono pomysl ECX",
+        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.",
+        "at": "2026-06-22T20:31:08.567Z",
+        "atText": "22.06, 22:31",
         "tone": "history"
       },
       {
@@ -76,23 +76,6 @@
         "tone": "normal"
       },
       {
-        "title": "Wygasaja zlecenia (49)",
-        "body": "Tickery: AIIO, APGE, ATO, AVGO, B, BAH, BBAR, BRSL, BRSYF, BWAY, CDIX, CMND +37. SOC: kandydat do kontroli ceny, ostatnia cena 9.355000; BAH: kandydat do kontroli ceny, ostatnia cena 63.660000; APGE: kandydat do kontr...",
-        "at": "2026-06-23T13:30:00.000Z",
-        "atText": "23.06, 15:30",
-        "tone": "normal"
-      },
-      {
-        "title": "Wygasa zlecenie TOP",
-        "body": "kandydat do kontroli ceny; limit 1.333000, ostatnia cena 1.380000",
-        "at": "2026-06-23T13:43:06.909Z",
-        "atText": "23.06, 15:43",
-        "tone": "normal",
-        "groupKey": "order-expiry",
-        "ticker": "TOP",
-        "summary": "kandydat do kontroli ceny, limit 1.333000, ostatnia cena 1.380000"
-      },
-      {
         "title": "End of day",
         "body": "Domkniecie dnia, wyjscia i raportowanie po sesji.",
         "at": "2026-06-23T20:05:00.000Z",
@@ -102,24 +85,24 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 22.06, 22:27",
-        "at": "2026-06-22T20:27:47.233Z",
-        "atText": "22.06, 22:27",
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 22.06, 22:31",
+        "at": "2026-06-22T20:31:08.632Z",
+        "atText": "22.06, 22:31",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono zdrowie aplikacji",
-        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.; 22.06, 22:17",
-        "at": "2026-06-22T20:17:13.212Z",
-        "atText": "22.06, 22:17",
+        "title": "Ostatnio: zapisano zdarzenie systemowe",
+        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 22.06, 22:31",
+        "at": "2026-06-22T20:31:08.605Z",
+        "atText": "22.06, 22:31",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono zgodnosc zapisow",
-        "body": "System porownal zapisy i nie znalazl nic pilnego.; 22.06, 22:16",
-        "at": "2026-06-22T20:16:51.709Z",
-        "atText": "22.06, 22:16",
+        "title": "Ostatnio: odrzucono pomysl ECX",
+        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 22.06, 22:31",
+        "at": "2026-06-22T20:31:08.567Z",
+        "atText": "22.06, 22:31",
         "tone": "history"
       }
     ],
@@ -127,15 +110,7 @@
       {
         "title": "Czekamy na",
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
-        "items": [
-          {
-            "title": "83 zlecen w aktywnej kolejce",
-            "body": "broker/queue: 83",
-            "at": null,
-            "atText": null,
-            "tone": "normal"
-          }
-        ]
+        "items": []
       },
       {
         "title": "Rozpatrujemy",
@@ -155,8 +130,8 @@
         "empty": "Brak ruchu recznego.",
         "items": [
           {
-            "title": "Nie dodawaj nic recznie",
-            "body": "Najpierw pozwol kolejce domknac aktywne kandydaty/submitted/accepted.",
+            "title": "Brak ruchu recznego",
+            "body": "System nie pokazuje teraz nic pilnego. Czekamy na nowe zrodla albo kolejny skan.",
             "at": null,
             "atText": null,
             "tone": "action"
