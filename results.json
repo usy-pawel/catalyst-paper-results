@@ -1,28 +1,28 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T20:31:08.821Z",
+  "generatedAt": "2026-06-22T20:34:36.676Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-22T20:31:08.632Z",
-        "atText": "22.06, 22:31",
+        "title": "Ostatnio: sprawdzono zdrowie systemu",
+        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.",
+        "at": "2026-06-22T20:32:02.371Z",
+        "atText": "22.06, 22:32",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zapisano zdarzenie systemowe",
-        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.",
-        "at": "2026-06-22T20:31:08.605Z",
-        "atText": "22.06, 22:31",
+        "title": "Ostatnio: sprawdzono zdrowie aplikacji",
+        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.",
+        "at": "2026-06-22T20:32:02.367Z",
+        "atText": "22.06, 22:32",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: odrzucono pomysl ECX",
-        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.",
-        "at": "2026-06-22T20:31:08.567Z",
+        "title": "Ostatnio: sprawdzono bezpieczenstwo trybu papierowego",
+        "body": "System upewnil sie, ze aplikacja nadal nie jest gotowa do realnego brokera bez zgody.",
+        "at": "2026-06-22T20:31:37.166Z",
         "atText": "22.06, 22:31",
         "tone": "history"
       },
@@ -85,23 +85,23 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 22.06, 22:31",
-        "at": "2026-06-22T20:31:08.632Z",
-        "atText": "22.06, 22:31",
+        "title": "Ostatnio: sprawdzono zdrowie systemu",
+        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.; 22.06, 22:32",
+        "at": "2026-06-22T20:32:02.371Z",
+        "atText": "22.06, 22:32",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zapisano zdarzenie systemowe",
-        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 22.06, 22:31",
-        "at": "2026-06-22T20:31:08.605Z",
-        "atText": "22.06, 22:31",
+        "title": "Ostatnio: sprawdzono zdrowie aplikacji",
+        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.; 22.06, 22:32",
+        "at": "2026-06-22T20:32:02.367Z",
+        "atText": "22.06, 22:32",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: odrzucono pomysl ECX",
-        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 22.06, 22:31",
-        "at": "2026-06-22T20:31:08.567Z",
+        "title": "Ostatnio: sprawdzono bezpieczenstwo trybu papierowego",
+        "body": "System upewnil sie, ze aplikacja nadal nie jest gotowa do realnego brokera bez zgody.; 22.06, 22:31",
+        "at": "2026-06-22T20:31:37.166Z",
         "atText": "22.06, 22:31",
         "tone": "history"
       }
