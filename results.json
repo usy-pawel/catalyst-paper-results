@@ -1,29 +1,29 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:22:40.399Z",
+  "generatedAt": "2026-06-23T13:25:28.149Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T13:21:49.306Z",
-        "atText": "23.06, 15:21",
+        "at": "2026-06-23T13:25:28.146Z",
+        "atText": "23.06, 15:25",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zapisano zdarzenie systemowe",
         "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.",
-        "at": "2026-06-23T13:21:49.299Z",
-        "atText": "23.06, 15:21",
+        "at": "2026-06-23T13:25:28.138Z",
+        "atText": "23.06, 15:25",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono news AMC",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
-        "at": "2026-06-23T12:32:48.752Z",
-        "atText": "23.06, 14:32",
+        "title": "Ostatnio: oceniono nowe informacje",
+        "body": "System przeczytal nowe informacje i sprawdzil, czy ktoras spolka jest warta uwagi.",
+        "at": "2026-06-23T13:24:33.892Z",
+        "atText": "23.06, 15:24",
         "tone": "history"
       },
       {
@@ -41,8 +41,8 @@
         "tone": "normal"
       },
       {
-        "title": "Wygasaja zlecenia (48)",
-        "body": "Tickery: ACN, ALLT, AMC, APM, ARCC, ARWR, BYAH, CDIX, CMBT, CMND, COFS, CUB +36. ALLT: czeka na otwarcie rynku, buy market; NTRA: czeka na otwarcie rynku, buy market; NTRA: czeka na otwarcie rynku, buy market; ACN: cz...",
+        "title": "Wygasaja zlecenia (54)",
+        "body": "Tickery: ACN, ALLT, AMC, APM, ARCC, ARWR, BOLD, BYAH, CDIX, CMBT, CMND, COFS +42. QUBT: czeka na otwarcie rynku, buy market; QUBT: czeka na otwarcie rynku, buy market; SGMO: czeka na otwarcie rynku, buy market; HSCS: ...",
         "at": "2026-06-23T20:00:00.000Z",
         "atText": "23.06, 22:00",
         "tone": "normal"
@@ -93,23 +93,23 @@
     "recentActivity": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:21",
-        "at": "2026-06-23T13:21:49.306Z",
-        "atText": "23.06, 15:21",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:25",
+        "at": "2026-06-23T13:25:28.146Z",
+        "atText": "23.06, 15:25",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zapisano zdarzenie systemowe",
-        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 23.06, 15:21",
-        "at": "2026-06-23T13:21:49.299Z",
-        "atText": "23.06, 15:21",
+        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 23.06, 15:25",
+        "at": "2026-06-23T13:25:28.138Z",
+        "atText": "23.06, 15:25",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono news AMC",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 14:32",
-        "at": "2026-06-23T12:32:48.752Z",
-        "atText": "23.06, 14:32",
+        "title": "Ostatnio: oceniono nowe informacje",
+        "body": "System przeczytal nowe informacje i sprawdzil, czy ktoras spolka jest warta uwagi.; 23.06, 15:24",
+        "at": "2026-06-23T13:24:33.892Z",
+        "atText": "23.06, 15:24",
         "tone": "history"
       }
     ],
@@ -119,7 +119,7 @@
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
         "items": [
           {
-            "title": "146 czeka na otwarcie rynku",
+            "title": "166 czeka na otwarcie rynku",
             "body": "Rynek: Rynek zamkniety. Powod: przed otwarciem. Nastepne otwarcie: 23.06, 15:30.",
             "at": null,
             "atText": null,
@@ -132,36 +132,36 @@
         "empty": "Brak sygnalow do oceny dzisiaj.",
         "items": [
           {
-            "title": "ALLT: kandydat (7.0)",
-            "body": "buyback: Allot authorized a $40 million buyback funded from cash on hand and paired it with commentary about profitable double-digit growth, giving the stoc...",
+            "title": "QUBT: mocny kandydat (8.0)",
+            "body": "other: Heuristic classification for QUBT: 8-K - Quantum Computing Inc. (0001758009) (Filer)",
             "at": null,
             "atText": null,
             "tone": "normal"
           },
           {
-            "title": "NTRA: mocny kandydat (8.0)",
-            "body": "other: Natera disclosed that NCCN upgraded bladder-cancer guidance around Signatera-driven ctDNA-MRD use after cystectomy, building on the assay's May 202...",
+            "title": "SGMO: kandydat (7.0)",
+            "body": "other: Heuristic classification for SGMO: 8-K - SANGAMO THERAPEUTICS, INC (0001001233) (Filer)",
             "at": null,
             "atText": null,
             "tone": "normal"
           },
           {
-            "title": "ACN: mocny kandydat (8.0)",
-            "body": "buyback: Accenture raised planned fiscal 2026 buybacks to $7.5 billion and total shareholder returns to $11.5 billion, creating a large and near-term capita...",
+            "title": "HSCS: kandydat (7.0)",
+            "body": "other: Heuristic classification for HSCS: 8-K - HeartSciences Inc. (0001468492) (Filer)",
             "at": null,
             "atText": null,
             "tone": "normal"
           },
           {
-            "title": "VTOL: mocny kandydat (10.0)",
-            "body": "acquisition: Bristow announced a $105 million all-cash acquisition of Berry Aviation that adds government and defense aviation exposure, $108 million of target ...",
+            "title": "KRP: obserwuj (6.0)",
+            "body": "other: Heuristic classification for KRP: 8-K - Kimbell Royalty Partners, LP (0001657788) (Filer)",
             "at": null,
             "atText": null,
             "tone": "normal"
           },
           {
-            "title": "OPITQ: obserwuj (5.0)",
-            "body": "other: Heuristic classification for OPITQ: 8-K - OFFICE PROPERTIES INCOME TRUST (0001456772) (Filer)",
+            "title": "HSCSW: obserwuj (5.0)",
+            "body": "other: Heuristic classification for HSCSW: 8-K - HeartSciences Inc. (0001468492) (Filer)",
             "at": null,
             "atText": null,
             "tone": "normal"
