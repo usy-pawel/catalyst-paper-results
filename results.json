@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:59:11.868Z",
+  "generatedAt": "2026-06-23T13:59:28.873Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -9,7 +9,13 @@
       "status": "open",
       "resultPercent": -4.53,
       "resultPercentText": "-4.53%",
-      "priceCapturedAt": "2026-06-23T13:59:11.861Z"
+      "priceCapturedAt": "2026-06-23T13:59:11.861Z",
+      "openedBecause": "Po ludzku: system uznal, ze NCI ma konkretny katalizator (kontrakt), a nie tylko losowy szum. Score 7.0, decyzja: kandydat. Heuristic classification for NCI: EFFECT - Neo-Concept International Group Holdings Ltd (0001916331) (Filer)",
+      "openedBecauseShort": "Najmocniej punktowalo: wiarygodne zrodlo (+3), konkret biznesowy (+2), goracy sektor (+1). Nie mial zapisanych mocnych czerwonych flag.",
+      "catalystType": "contract",
+      "score": 7,
+      "decision": "paper_trade",
+      "riskNotes": []
     },
     {
       "name": "MDU RESOURCES GROUP INC",
@@ -17,11 +23,17 @@
       "status": "open",
       "resultPercent": 0.13,
       "resultPercentText": "0.13%",
-      "priceCapturedAt": "2026-06-23T13:59:11.735Z"
+      "priceCapturedAt": "2026-06-23T13:59:11.735Z",
+      "openedBecause": "Po ludzku: system uznal, ze MDU ma konkretny katalizator (other), a nie tylko losowy szum. Score 7.0, decyzja: kandydat. Heuristic classification for MDU: Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory | MDU Stock News",
+      "openedBecauseShort": "Najmocniej punktowalo: konkret biznesowy (+2), znany partner (+2), goracy sektor (+1). Nie mial zapisanych mocnych czerwonych flag.",
+      "catalystType": "other",
+      "score": 7,
+      "decision": "paper_trade",
+      "riskNotes": []
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T13:59:11.868Z",
+    "generatedAt": "2026-06-23T13:59:28.873Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
@@ -47,6 +59,13 @@
   "dashboard": {
     "upcoming": [
       {
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
+        "at": "2026-06-23T13:59:25.564Z",
+        "atText": "23.06, 15:59",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
         "at": "2026-06-23T13:59:11.863Z",
@@ -57,13 +76,6 @@
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
         "at": "2026-06-23T13:33:48.610Z",
-        "atText": "23.06, 15:33",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: odrzucono pomysl COFS",
-        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.",
-        "at": "2026-06-23T13:33:48.609Z",
         "atText": "23.06, 15:33",
         "tone": "history"
       },
@@ -126,6 +138,13 @@
     ],
     "recentActivity": [
       {
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 15:59",
+        "at": "2026-06-23T13:59:25.564Z",
+        "atText": "23.06, 15:59",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:59",
         "at": "2026-06-23T13:59:11.863Z",
@@ -136,13 +155,6 @@
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:33",
         "at": "2026-06-23T13:33:48.610Z",
-        "atText": "23.06, 15:33",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: odrzucono pomysl COFS",
-        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:33",
-        "at": "2026-06-23T13:33:48.609Z",
         "atText": "23.06, 15:33",
         "tone": "history"
       }
