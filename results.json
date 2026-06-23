@@ -1,17 +1,10 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T05:14:38.206Z",
+  "generatedAt": "2026-06-23T05:18:17.733Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
-      {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
-        "at": "2026-06-23T05:03:47.398Z",
-        "atText": "23.06, 07:03",
-        "tone": "history"
-      },
       {
         "title": "Ostatnio: sprawdzono zdrowie aplikacji",
         "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.",
@@ -23,6 +16,13 @@
         "title": "Ostatnio: sprawdzono zgodnosc zapisow",
         "body": "System porownal zapisy i nie znalazl nic pilnego.",
         "at": "2026-06-22T20:31:33.736Z",
+        "atText": "22.06, 22:31",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zapisano zdarzenie systemowe",
+        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.",
+        "at": "2026-06-22T20:31:08.605Z",
         "atText": "22.06, 22:31",
         "tone": "history"
       },
@@ -85,13 +85,6 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 07:03",
-        "at": "2026-06-23T05:03:47.398Z",
-        "atText": "23.06, 07:03",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: sprawdzono zdrowie aplikacji",
         "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.; 22.06, 22:32",
         "at": "2026-06-22T20:32:02.367Z",
@@ -102,6 +95,13 @@
         "title": "Ostatnio: sprawdzono zgodnosc zapisow",
         "body": "System porownal zapisy i nie znalazl nic pilnego.; 22.06, 22:31",
         "at": "2026-06-22T20:31:33.736Z",
+        "atText": "22.06, 22:31",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zapisano zdarzenie systemowe",
+        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 22.06, 22:31",
+        "at": "2026-06-22T20:31:08.605Z",
         "atText": "22.06, 22:31",
         "tone": "history"
       }
