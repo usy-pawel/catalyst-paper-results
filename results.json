@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T14:40:59.508Z",
+  "generatedAt": "2026-06-23T14:42:13.258Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -9,9 +9,9 @@
       "status": "open",
       "resultPercent": -1.92,
       "resultPercentText": "-1.92%",
-      "priceCapturedAt": "2026-06-23T14:38:39.215Z",
-      "openedBecause": "Po ludzku: system zobaczyl material z 2026-06-18 \"EFFECT - Neo-Concept International Group Holdings Ltd (0001916331) (Filer)\" ze zrodla SEC current catalyst forms i ocenil go jako kontrakt. To wystarczylo na score 7.00 i decyzje: kandydat.",
-      "openedBecauseShort": "Snapshot decyzji zapisany w bazie: score, breakdown, evidence, data publikacji/fetch zrodla i risk flags.",
+      "priceCapturedAt": "2026-06-23T14:42:13.252Z",
+      "openedBecause": "Po ludzku: system zobaczyl material z 2026-06-18 \"EFFECT - Neo-Concept International Group Holdings Ltd (0001916331) (Filer)\" ze zrodla SEC current catalyst forms i ocenil go jako kontrakt. To wystarczylo na score 7.0 i decyzje: kandydat.",
+      "openedBecauseShort": "Najmocniej punktowalo: wiarygodne zrodlo (+3), konkret biznesowy (+2), goracy sektor (+1). Nie mial zapisanych mocnych czerwonych flag.",
       "catalystType": "contract",
       "score": 7,
       "decision": "paper_trade",
@@ -23,9 +23,9 @@
       "status": "open",
       "resultPercent": 0.88,
       "resultPercentText": "0.88%",
-      "priceCapturedAt": "2026-06-23T14:38:39.010Z",
-      "openedBecause": "Po ludzku: system zobaczyl material z 2026-06-22 \"Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory | MDU Stock News\" ze zrodla StockTitan public RSS i ocenil go jako inny katalizator. To wystarczylo na score 7.00 i decyzje: kandydat.",
-      "openedBecauseShort": "Snapshot decyzji zapisany w bazie: score, breakdown, evidence, data publikacji/fetch zrodla i risk flags.",
+      "priceCapturedAt": "2026-06-23T14:42:13.125Z",
+      "openedBecause": "Po ludzku: system zobaczyl material z 2026-06-22 \"Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory | MDU Stock News\" ze zrodla StockTitan public RSS i ocenil go jako inny katalizator. To wystarczylo na score 7.0 i decyzje: kandydat.",
+      "openedBecauseShort": "Najmocniej punktowalo: konkret biznesowy (+2), znany partner (+2), goracy sektor (+1). Nie mial zapisanych mocnych czerwonych flag.",
       "catalystType": "other",
       "score": 7,
       "decision": "paper_trade",
@@ -33,7 +33,7 @@
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T14:40:59.508Z",
+    "generatedAt": "2026-06-23T14:42:13.258Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
@@ -59,17 +59,17 @@
   "dashboard": {
     "upcoming": [
       {
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
+        "at": "2026-06-23T14:42:13.254Z",
+        "atText": "23.06, 16:42",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono kalendarz rynku",
         "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
         "at": "2026-06-23T14:40:56.191Z",
         "atText": "23.06, 16:40",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T14:38:39.218Z",
-        "atText": "23.06, 16:38",
         "tone": "history"
       },
       {
@@ -82,8 +82,8 @@
       {
         "title": "Price checks",
         "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
-        "at": "2026-06-23T14:42:00.000Z",
-        "atText": "23.06, 16:42",
+        "at": "2026-06-23T14:49:00.000Z",
+        "atText": "23.06, 16:49",
         "tone": "normal"
       },
       {
@@ -138,17 +138,17 @@
     ],
     "recentActivity": [
       {
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 16:42",
+        "at": "2026-06-23T14:42:13.254Z",
+        "atText": "23.06, 16:42",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono kalendarz rynku",
         "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 16:40",
         "at": "2026-06-23T14:40:56.191Z",
         "atText": "23.06, 16:40",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 16:38",
-        "at": "2026-06-23T14:38:39.218Z",
-        "atText": "23.06, 16:38",
         "tone": "history"
       },
       {
