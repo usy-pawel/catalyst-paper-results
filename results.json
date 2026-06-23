@@ -1,22 +1,22 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:03:38.231Z",
+  "generatedAt": "2026-06-23T13:03:42.139Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T13:00:04.548Z",
-        "atText": "23.06, 15:00",
+        "at": "2026-06-23T13:03:42.136Z",
+        "atText": "23.06, 15:03",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zapisano zdarzenie systemowe",
         "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.",
-        "at": "2026-06-23T13:00:04.544Z",
-        "atText": "23.06, 15:00",
+        "at": "2026-06-23T13:03:42.133Z",
+        "atText": "23.06, 15:03",
         "tone": "history"
       },
       {
@@ -93,16 +93,16 @@
     "recentActivity": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:00",
-        "at": "2026-06-23T13:00:04.548Z",
-        "atText": "23.06, 15:00",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:03",
+        "at": "2026-06-23T13:03:42.136Z",
+        "atText": "23.06, 15:03",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zapisano zdarzenie systemowe",
-        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 23.06, 15:00",
-        "at": "2026-06-23T13:00:04.544Z",
-        "atText": "23.06, 15:00",
+        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 23.06, 15:03",
+        "at": "2026-06-23T13:03:42.133Z",
+        "atText": "23.06, 15:03",
         "tone": "history"
       },
       {
