@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:46:01.989Z",
+  "generatedAt": "2026-06-23T13:46:14.699Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -21,7 +21,7 @@
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T13:46:01.989Z",
+    "generatedAt": "2026-06-23T13:46:14.699Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
@@ -54,16 +54,16 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T13:44:38.161Z",
-        "atText": "23.06, 15:44",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
         "at": "2026-06-23T13:33:48.610Z",
+        "atText": "23.06, 15:33",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: odrzucono pomysl COFS",
+        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.",
+        "at": "2026-06-23T13:33:48.609Z",
         "atText": "23.06, 15:33",
         "tone": "history"
       },
@@ -133,16 +133,16 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:44",
-        "at": "2026-06-23T13:44:38.161Z",
-        "atText": "23.06, 15:44",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:33",
         "at": "2026-06-23T13:33:48.610Z",
+        "atText": "23.06, 15:33",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: odrzucono pomysl COFS",
+        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:33",
+        "at": "2026-06-23T13:33:48.609Z",
         "atText": "23.06, 15:33",
         "tone": "history"
       }
@@ -151,7 +151,15 @@
       {
         "title": "Czekamy na",
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
-        "items": []
+        "items": [
+          {
+            "title": "1 blokad gate",
+            "body": "Market calendar is missing or stale.",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          }
+        ]
       },
       {
         "title": "Rozpatrujemy",
