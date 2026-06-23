@@ -1,29 +1,29 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T06:15:57.799Z",
+  "generatedAt": "2026-06-23T06:19:27.800Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: pobrano nowe wiadomosci",
-        "body": "System jeszcze nad tym pracuje.",
-        "at": "2026-06-23T06:15:57.776Z",
-        "atText": "23.06, 08:15",
+        "title": "Ostatnio: przeliczono test strategii",
+        "body": "System sprawdzil, jak strategia zachowalaby sie na zapisanych danych.",
+        "at": "2026-06-23T06:17:23.616Z",
+        "atText": "23.06, 08:17",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono zdrowie systemu",
-        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.",
-        "at": "2026-06-23T06:10:59.828Z",
-        "atText": "23.06, 08:10",
+        "title": "Ostatnio: oceniono nowe informacje",
+        "body": "System przeczytal nowe informacje i sprawdzil, czy ktoras spolka jest warta uwagi.",
+        "at": "2026-06-23T06:17:17.711Z",
+        "atText": "23.06, 08:17",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono zdrowie aplikacji",
-        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.",
-        "at": "2026-06-23T06:10:59.826Z",
-        "atText": "23.06, 08:10",
+        "title": "Ostatnio: sprawdzono news SURG",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
+        "at": "2026-06-23T06:17:17.710Z",
+        "atText": "23.06, 08:17",
         "tone": "history"
       },
       {
@@ -52,6 +52,13 @@
         "body": "Kandydaci z kolejki moga wtedy przejsc przez price check, gate i symulacje zlecenia.",
         "at": "2026-06-23T13:30:00.000Z",
         "atText": "23.06, 15:30",
+        "tone": "normal"
+      },
+      {
+        "title": "Wygasaja zlecenia (24)",
+        "body": "Tickery: APM, ARCC, CDIX, CMBT, CMND, COFS, CUB, ELLO, HCWB, HIVE, HNVR, HSHP +12. CUB: czeka na otwarcie rynku, buy market; NEO: czeka na otwarcie rynku, buy market; HIVE: czeka na otwarcie rynku, buy market; OTF: cz...",
+        "at": "2026-06-23T20:00:00.000Z",
+        "atText": "23.06, 22:00",
         "tone": "normal"
       },
       {
@@ -85,24 +92,24 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: pobrano nowe wiadomosci",
-        "body": "System jeszcze nad tym pracuje.; 23.06, 08:15",
-        "at": "2026-06-23T06:15:57.776Z",
-        "atText": "23.06, 08:15",
+        "title": "Ostatnio: przeliczono test strategii",
+        "body": "System sprawdzil, jak strategia zachowalaby sie na zapisanych danych.; 23.06, 08:17",
+        "at": "2026-06-23T06:17:23.616Z",
+        "atText": "23.06, 08:17",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono zdrowie systemu",
-        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.; 23.06, 08:10",
-        "at": "2026-06-23T06:10:59.828Z",
-        "atText": "23.06, 08:10",
+        "title": "Ostatnio: oceniono nowe informacje",
+        "body": "System przeczytal nowe informacje i sprawdzil, czy ktoras spolka jest warta uwagi.; 23.06, 08:17",
+        "at": "2026-06-23T06:17:17.711Z",
+        "atText": "23.06, 08:17",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono zdrowie aplikacji",
-        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.; 23.06, 08:10",
-        "at": "2026-06-23T06:10:59.826Z",
-        "atText": "23.06, 08:10",
+        "title": "Ostatnio: sprawdzono news SURG",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
+        "at": "2026-06-23T06:17:17.710Z",
+        "atText": "23.06, 08:17",
         "tone": "history"
       }
     ],
@@ -110,20 +117,57 @@
       {
         "title": "Czekamy na",
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
-        "items": []
+        "items": [
+          {
+            "title": "58 czeka na otwarcie rynku",
+            "body": "Rynek: Rynek zamkniety. Powod: przed otwarciem. Nastepne otwarcie: 23.06, 15:30.",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          }
+        ]
       },
       {
         "title": "Rozpatrujemy",
         "empty": "Brak sygnalow do oceny dzisiaj.",
-        "items": []
+        "items": [
+          {
+            "title": "CUB: kandydat (7.0)",
+            "body": "other: Heuristic classification for CUB: 8-K - Lionheart Holdings (0002015955) (Filer)",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          },
+          {
+            "title": "NEO: kandydat (7.0)",
+            "body": "other: Heuristic classification for NEO: 8-K - NEOGENOMICS INC (0001077183) (Filer)",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          },
+          {
+            "title": "CUBWU: obserwuj (6.0)",
+            "body": "other: Heuristic classification for CUBWU: 8-K - Lionheart Holdings (0002015955) (Filer)",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          },
+          {
+            "title": "INR: obserwuj (6.0)",
+            "body": "other: Heuristic classification for INR: 8-K - INFINITY NATURAL RESOURCES, INC. (0002029118) (Filer)",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          }
+        ]
       },
       {
         "title": "Nastepny ruch",
         "empty": "Brak ruchu recznego.",
         "items": [
           {
-            "title": "Najpierw napraw ostatni blad",
-            "body": "public_results_publish: fetch failed",
+            "title": "Czekaj na otwarcie rynku",
+            "body": "Powod: przed otwarciem. Nastepne otwarcie: 23.06, 15:30.",
             "at": null,
             "atText": null,
             "tone": "action"
