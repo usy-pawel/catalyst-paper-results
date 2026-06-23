@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T06:44:48.769Z",
+  "generatedAt": "2026-06-23T06:48:28.690Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
@@ -13,16 +13,16 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: uzupelniono dane cenowe",
-        "body": "System pobral brakujace dane z rynku, zeby oceny mialy lepszy kontekst.",
-        "at": "2026-06-23T06:36:36.115Z",
-        "atText": "23.06, 08:36",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: sprawdzono news SURG",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
         "at": "2026-06-23T06:17:17.710Z",
+        "atText": "23.06, 08:17",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono news FLOC",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
+        "at": "2026-06-23T06:17:17.515Z",
         "atText": "23.06, 08:17",
         "tone": "history"
       },
@@ -99,16 +99,16 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: uzupelniono dane cenowe",
-        "body": "System pobral brakujace dane z rynku, zeby oceny mialy lepszy kontekst.; 23.06, 08:36",
-        "at": "2026-06-23T06:36:36.115Z",
-        "atText": "23.06, 08:36",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: sprawdzono news SURG",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
         "at": "2026-06-23T06:17:17.710Z",
+        "atText": "23.06, 08:17",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono news FLOC",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
+        "at": "2026-06-23T06:17:17.515Z",
         "atText": "23.06, 08:17",
         "tone": "history"
       }
