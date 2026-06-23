@@ -1,51 +1,30 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T05:44:01.862Z",
+  "generatedAt": "2026-06-23T06:15:57.799Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
+        "title": "Ostatnio: pobrano nowe wiadomosci",
+        "body": "System jeszcze nad tym pracuje.",
+        "at": "2026-06-23T06:15:57.776Z",
+        "atText": "23.06, 08:15",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono zdrowie systemu",
+        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.",
+        "at": "2026-06-23T06:10:59.828Z",
+        "atText": "23.06, 08:10",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono zdrowie aplikacji",
         "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.",
-        "at": "2026-06-22T20:32:02.367Z",
-        "atText": "22.06, 22:32",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono zgodnosc zapisow",
-        "body": "System porownal zapisy i nie znalazl nic pilnego.",
-        "at": "2026-06-22T20:31:33.736Z",
-        "atText": "22.06, 22:31",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: zapisano zdarzenie systemowe",
-        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.",
-        "at": "2026-06-22T20:31:08.605Z",
-        "atText": "22.06, 22:31",
-        "tone": "history"
-      },
-      {
-        "title": "Odswiezenie kalendarza rynku",
-        "body": "Scheduler aktualizuje dni sesyjne i swieta.",
-        "at": "2026-06-23T05:55:00.000Z",
-        "atText": "23.06, 07:55",
-        "tone": "normal"
-      },
-      {
-        "title": "Poranny pakiet kontroli",
-        "body": "Daily report, reconciliation, autonomia, backtest, portfolio, cutover, market bars i data intelligence do 08:40.",
-        "at": "2026-06-23T06:00:00.000Z",
-        "atText": "23.06, 08:00",
-        "tone": "normal"
-      },
-      {
-        "title": "Skan newsow i scoring",
-        "body": "Poranny skan zrodel, klasyfikacja i scoring sygnalow.",
-        "at": "2026-06-23T06:10:00.000Z",
+        "at": "2026-06-23T06:10:59.826Z",
         "atText": "23.06, 08:10",
-        "tone": "normal"
+        "tone": "history"
       },
       {
         "title": "Skan newsow i scoring",
@@ -81,28 +60,49 @@
         "at": "2026-06-23T20:05:00.000Z",
         "atText": "23.06, 22:05",
         "tone": "normal"
+      },
+      {
+        "title": "Odswiezenie kalendarza rynku",
+        "body": "Scheduler aktualizuje dni sesyjne i swieta.",
+        "at": "2026-06-24T05:55:00.000Z",
+        "atText": "24.06, 07:55",
+        "tone": "normal"
+      },
+      {
+        "title": "Poranny pakiet kontroli",
+        "body": "Daily report, reconciliation, autonomia, backtest, portfolio, cutover, market bars i data intelligence do 08:40.",
+        "at": "2026-06-24T06:00:00.000Z",
+        "atText": "24.06, 08:00",
+        "tone": "normal"
+      },
+      {
+        "title": "Skan newsow i scoring",
+        "body": "Poranny skan zrodel, klasyfikacja i scoring sygnalow.",
+        "at": "2026-06-24T06:10:00.000Z",
+        "atText": "24.06, 08:10",
+        "tone": "normal"
       }
     ],
     "recentActivity": [
       {
+        "title": "Ostatnio: pobrano nowe wiadomosci",
+        "body": "System jeszcze nad tym pracuje.; 23.06, 08:15",
+        "at": "2026-06-23T06:15:57.776Z",
+        "atText": "23.06, 08:15",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono zdrowie systemu",
+        "body": "System sam sprawdzil, czy cos wymaga uwagi. Wynik: kontrola zapisana.; 23.06, 08:10",
+        "at": "2026-06-23T06:10:59.828Z",
+        "atText": "23.06, 08:10",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono zdrowie aplikacji",
-        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.; 22.06, 22:32",
-        "at": "2026-06-22T20:32:02.367Z",
-        "atText": "22.06, 22:32",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono zgodnosc zapisow",
-        "body": "System porownal zapisy i nie znalazl nic pilnego.; 22.06, 22:31",
-        "at": "2026-06-22T20:31:33.736Z",
-        "atText": "22.06, 22:31",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: zapisano zdarzenie systemowe",
-        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 22.06, 22:31",
-        "at": "2026-06-22T20:31:08.605Z",
-        "atText": "22.06, 22:31",
+        "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.; 23.06, 08:10",
+        "at": "2026-06-23T06:10:59.826Z",
+        "atText": "23.06, 08:10",
         "tone": "history"
       }
     ],
@@ -122,8 +122,8 @@
         "empty": "Brak ruchu recznego.",
         "items": [
           {
-            "title": "Brak ruchu recznego",
-            "body": "System nie pokazuje teraz nic pilnego. Czekamy na nowe zrodla albo kolejny skan.",
+            "title": "Najpierw napraw ostatni blad",
+            "body": "public_results_publish: fetch failed",
             "at": null,
             "atText": null,
             "tone": "action"
