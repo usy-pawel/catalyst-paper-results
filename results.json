@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T06:30:11.492Z",
+  "generatedAt": "2026-06-23T06:33:50.300Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
@@ -13,16 +13,16 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: policzono ryzyko portfela",
-        "body": "System sprawdzil aktualna ekspozycje i ryzyko. Wynik: zapisane.",
-        "at": "2026-06-23T06:20:57.787Z",
-        "atText": "23.06, 08:20",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: sprawdzono news SURG",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
         "at": "2026-06-23T06:17:17.710Z",
+        "atText": "23.06, 08:17",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono news FLOC",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
+        "at": "2026-06-23T06:17:17.515Z",
         "atText": "23.06, 08:17",
         "tone": "history"
       },
@@ -99,16 +99,16 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: policzono ryzyko portfela",
-        "body": "System sprawdzil aktualna ekspozycje i ryzyko. Wynik: zapisane.; 23.06, 08:20",
-        "at": "2026-06-23T06:20:57.787Z",
-        "atText": "23.06, 08:20",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: sprawdzono news SURG",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
         "at": "2026-06-23T06:17:17.710Z",
+        "atText": "23.06, 08:17",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono news FLOC",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
+        "at": "2026-06-23T06:17:17.515Z",
         "atText": "23.06, 08:17",
         "tone": "history"
       }
