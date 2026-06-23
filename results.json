@@ -1,22 +1,22 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:11:14.138Z",
+  "generatedAt": "2026-06-23T13:14:33.739Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T13:10:55.687Z",
-        "atText": "23.06, 15:10",
+        "at": "2026-06-23T13:14:33.729Z",
+        "atText": "23.06, 15:14",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zapisano zdarzenie systemowe",
         "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.",
-        "at": "2026-06-23T13:10:55.680Z",
-        "atText": "23.06, 15:10",
+        "at": "2026-06-23T13:14:33.725Z",
+        "atText": "23.06, 15:14",
         "tone": "history"
       },
       {
@@ -27,17 +27,17 @@
         "tone": "history"
       },
       {
-        "title": "Price checks",
-        "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
-        "at": "2026-06-23T13:14:00.000Z",
-        "atText": "23.06, 15:14",
-        "tone": "normal"
-      },
-      {
         "title": "Skan newsow i scoring",
         "body": "Skan przy starcie regularnej sesji USA.",
         "at": "2026-06-23T13:20:00.000Z",
         "atText": "23.06, 15:20",
+        "tone": "normal"
+      },
+      {
+        "title": "Price checks",
+        "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
+        "at": "2026-06-23T13:21:00.000Z",
+        "atText": "23.06, 15:21",
         "tone": "normal"
       },
       {
@@ -93,16 +93,16 @@
     "recentActivity": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:10",
-        "at": "2026-06-23T13:10:55.687Z",
-        "atText": "23.06, 15:10",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:14",
+        "at": "2026-06-23T13:14:33.729Z",
+        "atText": "23.06, 15:14",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zapisano zdarzenie systemowe",
-        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 23.06, 15:10",
-        "at": "2026-06-23T13:10:55.680Z",
-        "atText": "23.06, 15:10",
+        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 23.06, 15:14",
+        "at": "2026-06-23T13:14:33.725Z",
+        "atText": "23.06, 15:14",
         "tone": "history"
       },
       {
