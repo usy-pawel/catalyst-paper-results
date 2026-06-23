@@ -1,17 +1,10 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T06:55:50.357Z",
+  "generatedAt": "2026-06-23T06:59:32.124Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
-      {
-        "title": "Ostatnio: odswiezono jakosc danych",
-        "body": "System sprawdzil zrodla i podstawowe dane o spolkach. Wynik: gotowe.",
-        "at": "2026-06-23T06:41:41.930Z",
-        "atText": "23.06, 08:41",
-        "tone": "history"
-      },
       {
         "title": "Ostatnio: sprawdzono news SURG",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
@@ -23,6 +16,13 @@
         "title": "Ostatnio: sprawdzono news FLOC",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
         "at": "2026-06-23T06:17:17.515Z",
+        "atText": "23.06, 08:17",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono news CUBWW",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
+        "at": "2026-06-23T06:17:17.381Z",
         "atText": "23.06, 08:17",
         "tone": "history"
       },
@@ -92,13 +92,6 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: odswiezono jakosc danych",
-        "body": "System sprawdzil zrodla i podstawowe dane o spolkach. Wynik: gotowe.; 23.06, 08:41",
-        "at": "2026-06-23T06:41:41.930Z",
-        "atText": "23.06, 08:41",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: sprawdzono news SURG",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
         "at": "2026-06-23T06:17:17.710Z",
@@ -109,6 +102,13 @@
         "title": "Ostatnio: sprawdzono news FLOC",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
         "at": "2026-06-23T06:17:17.515Z",
+        "atText": "23.06, 08:17",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono news CUBWW",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
+        "at": "2026-06-23T06:17:17.381Z",
         "atText": "23.06, 08:17",
         "tone": "history"
       }
