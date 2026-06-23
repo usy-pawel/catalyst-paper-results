@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T15:31:23.059Z",
+  "generatedAt": "2026-06-23T15:31:37.932Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -33,7 +33,7 @@
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T15:31:23.059Z",
+    "generatedAt": "2026-06-23T15:31:37.932Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
@@ -59,17 +59,17 @@
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T15:31:23.053Z",
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
+        "at": "2026-06-23T15:31:35.662Z",
         "atText": "23.06, 17:31",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
-        "at": "2026-06-23T15:29:35.941Z",
-        "atText": "23.06, 17:29",
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
+        "at": "2026-06-23T15:31:23.053Z",
+        "atText": "23.06, 17:31",
         "tone": "history"
       },
       {
@@ -138,17 +138,17 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 17:31",
-        "at": "2026-06-23T15:31:23.053Z",
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 17:31",
+        "at": "2026-06-23T15:31:35.662Z",
         "atText": "23.06, 17:31",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 17:29",
-        "at": "2026-06-23T15:29:35.941Z",
-        "atText": "23.06, 17:29",
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 17:31",
+        "at": "2026-06-23T15:31:23.053Z",
+        "atText": "23.06, 17:31",
         "tone": "history"
       },
       {
@@ -163,7 +163,15 @@
       {
         "title": "Czekamy na",
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
-        "items": []
+        "items": [
+          {
+            "title": "1 blokad gate",
+            "body": "Market calendar is missing or stale.",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          }
+        ]
       },
       {
         "title": "Rozpatrujemy",
