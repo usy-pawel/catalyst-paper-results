@@ -1,46 +1,46 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:30:17.888Z",
+  "generatedAt": "2026-06-23T13:31:07.490Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
       "ticker": "NCI",
       "status": "open",
-      "resultPercent": -1.48,
-      "resultPercentText": "-1.48%",
-      "priceCapturedAt": "2026-06-23T13:30:13.566Z"
+      "resultPercent": -4.94,
+      "resultPercentText": "-4.94%",
+      "priceCapturedAt": "2026-06-23T13:31:07.452Z"
     },
     {
       "name": "MDU RESOURCES GROUP INC",
       "ticker": "MDU",
       "status": "open",
-      "resultPercent": -0.62,
-      "resultPercentText": "-0.62%",
-      "priceCapturedAt": "2026-06-23T13:30:12.816Z"
+      "resultPercent": -0.9,
+      "resultPercentText": "-0.90%",
+      "priceCapturedAt": "2026-06-23T13:31:06.560Z"
     }
   ],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko HCWB",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
-        "at": "2026-06-23T13:30:17.683Z",
-        "atText": "23.06, 15:30",
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
+        "at": "2026-06-23T13:31:07.487Z",
+        "atText": "23.06, 15:31",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: odrzucono pomysl HCWB",
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko QUBT",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
+        "at": "2026-06-23T13:31:05.671Z",
+        "atText": "23.06, 15:31",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: odrzucono pomysl QUBT",
         "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.",
-        "at": "2026-06-23T13:30:17.680Z",
-        "atText": "23.06, 15:30",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko HNVR",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
-        "at": "2026-06-23T13:30:17.333Z",
-        "atText": "23.06, 15:30",
+        "at": "2026-06-23T13:31:05.670Z",
+        "atText": "23.06, 15:31",
         "tone": "history"
       },
       {
@@ -51,11 +51,14 @@
         "tone": "normal"
       },
       {
-        "title": "Wygasaja zlecenia (46)",
-        "body": "Tickery: ACN, ALLT, AMC, APM, ARCC, ARWR, BOLD, BYAH, CMBT, COFS, CUB, ELLO +34. QUBT: czeka na otwarcie rynku, buy market; QUBT: czeka na otwarcie rynku, buy market; SGMO: czeka na otwarcie rynku, buy market; HSCS: c...",
+        "title": "Wygasa zlecenie COFS",
+        "body": "zaakceptowane, czeka na fill; ostatnia cena 32.080000",
         "at": "2026-06-23T20:00:00.000Z",
         "atText": "23.06, 22:00",
-        "tone": "normal"
+        "tone": "normal",
+        "groupKey": "order-expiry",
+        "ticker": "COFS",
+        "summary": "zaakceptowane, czeka na fill, ostatnia cena 32.080000"
       },
       {
         "title": "Zamkniecie rynku",
@@ -105,35 +108,28 @@
         "at": "2026-06-24T13:20:00.000Z",
         "atText": "24.06, 15:20",
         "tone": "normal"
-      },
-      {
-        "title": "Wygasaja zlecenia (45)",
-        "body": "Tickery: ACN, ALLT, AMC, APM, ARCC, ARWR, BOLD, BYAH, CMBT, CUB, ELLO, FMC +33. QUBT: czeka na otwarcie rynku, buy limit; SGMO: czeka na otwarcie rynku, buy limit; HSCS: czeka na otwarcie rynku, buy limit; BOLD: czeka...",
-        "at": "2026-06-24T13:30:00.000Z",
-        "atText": "24.06, 15:30",
-        "tone": "normal"
       }
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko HCWB",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:30",
-        "at": "2026-06-23T13:30:17.683Z",
-        "atText": "23.06, 15:30",
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:31",
+        "at": "2026-06-23T13:31:07.487Z",
+        "atText": "23.06, 15:31",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: odrzucono pomysl HCWB",
-        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:30",
-        "at": "2026-06-23T13:30:17.680Z",
-        "atText": "23.06, 15:30",
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko QUBT",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:31",
+        "at": "2026-06-23T13:31:05.671Z",
+        "atText": "23.06, 15:31",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko HNVR",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:30",
-        "at": "2026-06-23T13:30:17.333Z",
-        "atText": "23.06, 15:30",
+        "title": "Ostatnio: odrzucono pomysl QUBT",
+        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:31",
+        "at": "2026-06-23T13:31:05.670Z",
+        "atText": "23.06, 15:31",
         "tone": "history"
       }
     ],
@@ -143,15 +139,8 @@
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
         "items": [
           {
-            "title": "144 czeka na otwarcie rynku",
-            "body": "Rynek: Rynek otwarty. Wejscia sa mozliwe tylko jesli gate i limity sa OK.",
-            "at": null,
-            "atText": null,
-            "tone": "normal"
-          },
-          {
             "title": "1 zlecen w aktywnej kolejce",
-            "body": "market open: 144, broker/queue: 1, accepted: 1",
+            "body": "broker/queue: 1, accepted: 1",
             "at": null,
             "atText": null,
             "tone": "normal"
