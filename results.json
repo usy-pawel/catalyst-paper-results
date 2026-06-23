@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T15:38:32.544Z",
+  "generatedAt": "2026-06-23T15:42:02.916Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -9,7 +9,7 @@
       "status": "open",
       "resultPercent": -1.92,
       "resultPercentText": "-1.92%",
-      "priceCapturedAt": "2026-06-23T15:35:02.733Z",
+      "priceCapturedAt": "2026-06-23T15:38:33.207Z",
       "openedBecause": "Po ludzku: system zobaczyl material z 2026-06-18 \"EFFECT - Neo-Concept International Group Holdings Ltd (0001916331) (Filer)\" ze zrodla SEC current catalyst forms i ocenil go jako kontrakt. To wystarczylo na score 7.0 i decyzje: kandydat.",
       "openedBecauseShort": "Najmocniej punktowalo: wiarygodne zrodlo (+3), konkret biznesowy (+2), goracy sektor (+1). Nie mial zapisanych mocnych czerwonych flag.",
       "catalystType": "contract",
@@ -23,7 +23,7 @@
       "status": "open",
       "resultPercent": 1.11,
       "resultPercentText": "1.11%",
-      "priceCapturedAt": "2026-06-23T15:35:02.584Z",
+      "priceCapturedAt": "2026-06-23T15:38:32.999Z",
       "openedBecause": "Po ludzku: system zobaczyl material z 2026-06-22 \"Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory | MDU Stock News\" ze zrodla StockTitan public RSS i ocenil go jako inny katalizator. To wystarczylo na score 7.0 i decyzje: kandydat.",
       "openedBecauseShort": "Najmocniej punktowalo: konkret biznesowy (+2), znany partner (+2), goracy sektor (+1). Nie mial zapisanych mocnych czerwonych flag.",
       "catalystType": "other",
@@ -33,7 +33,7 @@
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T15:38:32.544Z",
+    "generatedAt": "2026-06-23T15:42:02.916Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
@@ -61,15 +61,8 @@
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T15:35:02.737Z",
-        "atText": "23.06, 17:35",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
-        "at": "2026-06-23T15:31:35.662Z",
-        "atText": "23.06, 17:31",
+        "at": "2026-06-23T15:38:33.211Z",
+        "atText": "23.06, 17:38",
         "tone": "history"
       },
       {
@@ -80,10 +73,17 @@
         "tone": "history"
       },
       {
+        "title": "Ostatnio: odrzucono pomysl COFS",
+        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.",
+        "at": "2026-06-23T13:33:48.609Z",
+        "atText": "23.06, 15:33",
+        "tone": "history"
+      },
+      {
         "title": "Price checks",
         "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
-        "at": "2026-06-23T15:42:00.000Z",
-        "atText": "23.06, 17:42",
+        "at": "2026-06-23T15:49:00.000Z",
+        "atText": "23.06, 17:49",
         "tone": "normal"
       },
       {
@@ -139,22 +139,22 @@
     "recentActivity": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 17:35",
-        "at": "2026-06-23T15:35:02.737Z",
-        "atText": "23.06, 17:35",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 17:31",
-        "at": "2026-06-23T15:31:35.662Z",
-        "atText": "23.06, 17:31",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 17:38",
+        "at": "2026-06-23T15:38:33.211Z",
+        "atText": "23.06, 17:38",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:33",
         "at": "2026-06-23T13:33:48.610Z",
+        "atText": "23.06, 15:33",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: odrzucono pomysl COFS",
+        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:33",
+        "at": "2026-06-23T13:33:48.609Z",
         "atText": "23.06, 15:33",
         "tone": "history"
       }
