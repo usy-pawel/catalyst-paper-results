@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T12:18:02.135Z",
+  "generatedAt": "2026-06-23T12:21:51.139Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
@@ -25,13 +25,6 @@
         "at": "2026-06-23T07:43:44.204Z",
         "atText": "23.06, 09:43",
         "tone": "history"
-      },
-      {
-        "title": "Skan newsow i scoring",
-        "body": "Drugi skan dnia przed sesja/na starcie aktywnosci.",
-        "at": "2026-06-23T12:20:00.000Z",
-        "atText": "23.06, 14:20",
-        "tone": "normal"
       },
       {
         "title": "Price checks",
@@ -87,6 +80,13 @@
         "body": "Poranny skan zrodel, klasyfikacja i scoring sygnalow.",
         "at": "2026-06-24T06:10:00.000Z",
         "atText": "24.06, 08:10",
+        "tone": "normal"
+      },
+      {
+        "title": "Skan newsow i scoring",
+        "body": "Drugi skan dnia przed sesja/na starcie aktywnosci.",
+        "at": "2026-06-24T12:20:00.000Z",
+        "atText": "24.06, 14:20",
         "tone": "normal"
       }
     ],
