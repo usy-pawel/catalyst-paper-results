@@ -1,32 +1,39 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:34:06.556Z",
+  "generatedAt": "2026-06-23T13:37:39.678Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
       "ticker": "NCI",
       "status": "open",
-      "resultPercent": -4.94,
-      "resultPercentText": "-4.94%",
-      "priceCapturedAt": "2026-06-23T13:33:48.871Z"
+      "resultPercent": -4.85,
+      "resultPercentText": "-4.85%",
+      "priceCapturedAt": "2026-06-23T13:37:27.939Z"
     },
     {
       "name": "MDU RESOURCES GROUP INC",
       "ticker": "MDU",
       "status": "open",
-      "resultPercent": -0.18,
-      "resultPercentText": "-0.18%",
-      "priceCapturedAt": "2026-06-23T13:33:48.800Z"
+      "resultPercent": -0.53,
+      "resultPercentText": "-0.53%",
+      "priceCapturedAt": "2026-06-23T13:37:27.481Z"
     }
   ],
   "dashboard": {
     "upcoming": [
       {
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
+        "at": "2026-06-23T13:37:36.644Z",
+        "atText": "23.06, 15:37",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T13:33:48.874Z",
-        "atText": "23.06, 15:33",
+        "at": "2026-06-23T13:37:27.942Z",
+        "atText": "23.06, 15:37",
         "tone": "history"
       },
       {
@@ -37,17 +44,10 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: odrzucono pomysl COFS",
-        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.",
-        "at": "2026-06-23T13:33:48.609Z",
-        "atText": "23.06, 15:33",
-        "tone": "history"
-      },
-      {
         "title": "Price checks",
         "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
-        "at": "2026-06-23T13:35:00.000Z",
-        "atText": "23.06, 15:35",
+        "at": "2026-06-23T13:42:00.000Z",
+        "atText": "23.06, 15:42",
         "tone": "normal"
       },
       {
@@ -102,23 +102,23 @@
     ],
     "recentActivity": [
       {
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 15:37",
+        "at": "2026-06-23T13:37:36.644Z",
+        "atText": "23.06, 15:37",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:33",
-        "at": "2026-06-23T13:33:48.874Z",
-        "atText": "23.06, 15:33",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:37",
+        "at": "2026-06-23T13:37:27.942Z",
+        "atText": "23.06, 15:37",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:33",
         "at": "2026-06-23T13:33:48.610Z",
-        "atText": "23.06, 15:33",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: odrzucono pomysl COFS",
-        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:33",
-        "at": "2026-06-23T13:33:48.609Z",
         "atText": "23.06, 15:33",
         "tone": "history"
       }
