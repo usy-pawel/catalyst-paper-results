@@ -1,22 +1,22 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-22T20:45:59.915Z",
+  "generatedAt": "2026-06-23T05:03:50.704Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
+      {
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
+        "at": "2026-06-23T05:03:47.398Z",
+        "atText": "23.06, 07:03",
+        "tone": "history"
+      },
       {
         "title": "Ostatnio: wykonano zadanie systemowe",
         "body": "System wykonal zaplanowane zadanie. Wynik: gotowe.",
         "at": "2026-06-22T20:39:08.075Z",
         "atText": "22.06, 22:39",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
-        "at": "2026-06-22T20:38:53.638Z",
-        "atText": "22.06, 22:38",
         "tone": "history"
       },
       {
@@ -85,17 +85,17 @@
     ],
     "recentActivity": [
       {
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 07:03",
+        "at": "2026-06-23T05:03:47.398Z",
+        "atText": "23.06, 07:03",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: wykonano zadanie systemowe",
         "body": "System wykonal zaplanowane zadanie. Wynik: gotowe.; 22.06, 22:39",
         "at": "2026-06-22T20:39:08.075Z",
         "atText": "22.06, 22:39",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 22.06, 22:38",
-        "at": "2026-06-22T20:38:53.638Z",
-        "atText": "22.06, 22:38",
         "tone": "history"
       },
       {
@@ -115,15 +115,7 @@
       {
         "title": "Rozpatrujemy",
         "empty": "Brak sygnalow do oceny dzisiaj.",
-        "items": [
-          {
-            "title": "PLBY: obserwuj (6.0)",
-            "body": "other: Heuristic classification for PLBY: 8-K - Playboy, Inc. (0001803914) (Filer)",
-            "at": null,
-            "atText": null,
-            "tone": "normal"
-          }
-        ]
+        "items": []
       },
       {
         "title": "Nastepny ruch",
