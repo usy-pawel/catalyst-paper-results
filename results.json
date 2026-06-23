@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:45:09.948Z",
+  "generatedAt": "2026-06-23T13:46:01.989Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -20,8 +20,39 @@
       "priceCapturedAt": "2026-06-23T13:44:38.068Z"
     }
   ],
+  "queue": {
+    "generatedAt": "2026-06-23T13:46:01.989Z",
+    "market": {
+      "isOpen": true,
+      "reason": "regular_session",
+      "nextOpenAt": null,
+      "sessionOpenAt": "2026-06-23T13:30:00.000Z",
+      "sessionCloseAt": "2026-06-23T20:00:00.000Z"
+    },
+    "limits": {
+      "maxPendingOrders": 10,
+      "maxPortfolioExposureEur": 300,
+      "openExposureEur": 200
+    },
+    "summary": {
+      "total": 0,
+      "selected": 0,
+      "blocked_known": 0,
+      "duplicate_ticker_pruned": 0,
+      "capacity_pruned": 0,
+      "waiting_market_open": 0
+    },
+    "candidates": []
+  },
   "dashboard": {
     "upcoming": [
+      {
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
+        "at": "2026-06-23T13:45:58.553Z",
+        "atText": "23.06, 15:45",
+        "tone": "history"
+      },
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
@@ -33,13 +64,6 @@
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
         "at": "2026-06-23T13:33:48.610Z",
-        "atText": "23.06, 15:33",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: odrzucono pomysl COFS",
-        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.",
-        "at": "2026-06-23T13:33:48.609Z",
         "atText": "23.06, 15:33",
         "tone": "history"
       },
@@ -102,6 +126,13 @@
     ],
     "recentActivity": [
       {
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 15:45",
+        "at": "2026-06-23T13:45:58.553Z",
+        "atText": "23.06, 15:45",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:44",
         "at": "2026-06-23T13:44:38.161Z",
@@ -112,13 +143,6 @@
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:33",
         "at": "2026-06-23T13:33:48.610Z",
-        "atText": "23.06, 15:33",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: odrzucono pomysl COFS",
-        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:33",
-        "at": "2026-06-23T13:33:48.609Z",
         "atText": "23.06, 15:33",
         "tone": "history"
       }
