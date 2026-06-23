@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T05:03:50.704Z",
+  "generatedAt": "2026-06-23T05:07:21.059Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
@@ -13,17 +13,17 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: wykonano zadanie systemowe",
-        "body": "System wykonal zaplanowane zadanie. Wynik: gotowe.",
-        "at": "2026-06-22T20:39:08.075Z",
-        "atText": "22.06, 22:39",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: sprawdzono zdrowie aplikacji",
         "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.",
         "at": "2026-06-22T20:32:02.367Z",
         "atText": "22.06, 22:32",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono zgodnosc zapisow",
+        "body": "System porownal zapisy i nie znalazl nic pilnego.",
+        "at": "2026-06-22T20:31:33.736Z",
+        "atText": "22.06, 22:31",
         "tone": "history"
       },
       {
@@ -92,17 +92,17 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: wykonano zadanie systemowe",
-        "body": "System wykonal zaplanowane zadanie. Wynik: gotowe.; 22.06, 22:39",
-        "at": "2026-06-22T20:39:08.075Z",
-        "atText": "22.06, 22:39",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: sprawdzono zdrowie aplikacji",
         "body": "System sam przejrzal, czy dzialanie aplikacji wyglada normalnie. Wynik: kontrola zapisana.; 22.06, 22:32",
         "at": "2026-06-22T20:32:02.367Z",
         "atText": "22.06, 22:32",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: sprawdzono zgodnosc zapisow",
+        "body": "System porownal zapisy i nie znalazl nic pilnego.; 22.06, 22:31",
+        "at": "2026-06-22T20:31:33.736Z",
+        "atText": "22.06, 22:31",
         "tone": "history"
       }
     ],
