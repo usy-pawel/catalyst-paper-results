@@ -1,10 +1,17 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T06:22:57.791Z",
+  "generatedAt": "2026-06-23T06:26:33.111Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
+      {
+        "title": "Ostatnio: sprawdzono bezpieczenstwo trybu papierowego",
+        "body": "System upewnil sie, ze aplikacja nadal nie jest gotowa do realnego brokera bez zgody.",
+        "at": "2026-06-23T06:26:02.657Z",
+        "atText": "23.06, 08:26",
+        "tone": "history"
+      },
       {
         "title": "Ostatnio: policzono ryzyko portfela",
         "body": "System sprawdzil aktualna ekspozycje i ryzyko. Wynik: zapisane.",
@@ -13,16 +20,9 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: przeliczono test strategii",
-        "body": "System sprawdzil, jak strategia zachowalaby sie na zapisanych danych.",
-        "at": "2026-06-23T06:17:23.616Z",
-        "atText": "23.06, 08:17",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: oceniono nowe informacje",
-        "body": "System przeczytal nowe informacje i sprawdzil, czy ktoras spolka jest warta uwagi.",
-        "at": "2026-06-23T06:17:17.711Z",
+        "title": "Ostatnio: sprawdzono news SURG",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
+        "at": "2026-06-23T06:17:17.710Z",
         "atText": "23.06, 08:17",
         "tone": "history"
       },
@@ -92,6 +92,13 @@
     ],
     "recentActivity": [
       {
+        "title": "Ostatnio: sprawdzono bezpieczenstwo trybu papierowego",
+        "body": "System upewnil sie, ze aplikacja nadal nie jest gotowa do realnego brokera bez zgody.; 23.06, 08:26",
+        "at": "2026-06-23T06:26:02.657Z",
+        "atText": "23.06, 08:26",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: policzono ryzyko portfela",
         "body": "System sprawdzil aktualna ekspozycje i ryzyko. Wynik: zapisane.; 23.06, 08:20",
         "at": "2026-06-23T06:20:57.787Z",
@@ -99,16 +106,9 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: przeliczono test strategii",
-        "body": "System sprawdzil, jak strategia zachowalaby sie na zapisanych danych.; 23.06, 08:17",
-        "at": "2026-06-23T06:17:23.616Z",
-        "atText": "23.06, 08:17",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: oceniono nowe informacje",
-        "body": "System przeczytal nowe informacje i sprawdzil, czy ktoras spolka jest warta uwagi.; 23.06, 08:17",
-        "at": "2026-06-23T06:17:17.711Z",
+        "title": "Ostatnio: sprawdzono news SURG",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
+        "at": "2026-06-23T06:17:17.710Z",
         "atText": "23.06, 08:17",
         "tone": "history"
       }
