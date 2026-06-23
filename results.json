@@ -1,15 +1,15 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T06:33:50.300Z",
+  "generatedAt": "2026-06-23T06:37:29.336Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono bezpieczenstwo trybu papierowego",
-        "body": "System upewnil sie, ze aplikacja nadal nie jest gotowa do realnego brokera bez zgody.",
-        "at": "2026-06-23T06:26:02.657Z",
-        "atText": "23.06, 08:26",
+        "title": "Ostatnio: uzupelniono dane cenowe",
+        "body": "System pobral brakujace dane z rynku, zeby oceny mialy lepszy kontekst.",
+        "at": "2026-06-23T06:36:36.115Z",
+        "atText": "23.06, 08:36",
         "tone": "history"
       },
       {
@@ -92,10 +92,10 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono bezpieczenstwo trybu papierowego",
-        "body": "System upewnil sie, ze aplikacja nadal nie jest gotowa do realnego brokera bez zgody.; 23.06, 08:26",
-        "at": "2026-06-23T06:26:02.657Z",
-        "atText": "23.06, 08:26",
+        "title": "Ostatnio: uzupelniono dane cenowe",
+        "body": "System pobral brakujace dane z rynku, zeby oceny mialy lepszy kontekst.; 23.06, 08:36",
+        "at": "2026-06-23T06:36:36.115Z",
+        "atText": "23.06, 08:36",
         "tone": "history"
       },
       {
