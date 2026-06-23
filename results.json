@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T14:47:53.101Z",
+  "generatedAt": "2026-06-23T14:49:13.948Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -9,7 +9,7 @@
       "status": "open",
       "resultPercent": -1.92,
       "resultPercentText": "-1.92%",
-      "priceCapturedAt": "2026-06-23T14:45:43.538Z",
+      "priceCapturedAt": "2026-06-23T14:49:13.936Z",
       "openedBecause": "Po ludzku: system zobaczyl material z 2026-06-18 \"EFFECT - Neo-Concept International Group Holdings Ltd (0001916331) (Filer)\" ze zrodla SEC current catalyst forms i ocenil go jako kontrakt. To wystarczylo na score 7.0 i decyzje: kandydat.",
       "openedBecauseShort": "Najmocniej punktowalo: wiarygodne zrodlo (+3), konkret biznesowy (+2), goracy sektor (+1). Nie mial zapisanych mocnych czerwonych flag.",
       "catalystType": "contract",
@@ -21,9 +21,9 @@
       "name": "MDU RESOURCES GROUP INC",
       "ticker": "MDU",
       "status": "open",
-      "resultPercent": 0.9,
-      "resultPercentText": "0.90%",
-      "priceCapturedAt": "2026-06-23T14:45:43.407Z",
+      "resultPercent": 0.88,
+      "resultPercentText": "0.88%",
+      "priceCapturedAt": "2026-06-23T14:49:13.701Z",
       "openedBecause": "Po ludzku: system zobaczyl material z 2026-06-22 \"Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory | MDU Stock News\" ze zrodla StockTitan public RSS i ocenil go jako inny katalizator. To wystarczylo na score 7.0 i decyzje: kandydat.",
       "openedBecauseShort": "Najmocniej punktowalo: konkret biznesowy (+2), znany partner (+2), goracy sektor (+1). Nie mial zapisanych mocnych czerwonych flag.",
       "catalystType": "other",
@@ -33,7 +33,7 @@
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T14:47:53.101Z",
+    "generatedAt": "2026-06-23T14:49:13.948Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
@@ -61,8 +61,8 @@
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T14:45:43.540Z",
-        "atText": "23.06, 16:45",
+        "at": "2026-06-23T14:49:13.943Z",
+        "atText": "23.06, 16:49",
         "tone": "history"
       },
       {
@@ -82,8 +82,8 @@
       {
         "title": "Price checks",
         "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
-        "at": "2026-06-23T14:49:00.000Z",
-        "atText": "23.06, 16:49",
+        "at": "2026-06-23T14:56:00.000Z",
+        "atText": "23.06, 16:56",
         "tone": "normal"
       },
       {
@@ -139,9 +139,9 @@
     "recentActivity": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 16:45",
-        "at": "2026-06-23T14:45:43.540Z",
-        "atText": "23.06, 16:45",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 16:49",
+        "at": "2026-06-23T14:49:13.943Z",
+        "atText": "23.06, 16:49",
         "tone": "history"
       },
       {
