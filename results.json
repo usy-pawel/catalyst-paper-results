@@ -1,10 +1,17 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T06:41:08.980Z",
+  "generatedAt": "2026-06-23T06:44:48.769Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
+      {
+        "title": "Ostatnio: odswiezono jakosc danych",
+        "body": "System sprawdzil zrodla i podstawowe dane o spolkach. Wynik: gotowe.",
+        "at": "2026-06-23T06:41:41.930Z",
+        "atText": "23.06, 08:41",
+        "tone": "history"
+      },
       {
         "title": "Ostatnio: uzupelniono dane cenowe",
         "body": "System pobral brakujace dane z rynku, zeby oceny mialy lepszy kontekst.",
@@ -16,13 +23,6 @@
         "title": "Ostatnio: sprawdzono news SURG",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
         "at": "2026-06-23T06:17:17.710Z",
-        "atText": "23.06, 08:17",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono news FLOC",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
-        "at": "2026-06-23T06:17:17.515Z",
         "atText": "23.06, 08:17",
         "tone": "history"
       },
@@ -92,6 +92,13 @@
     ],
     "recentActivity": [
       {
+        "title": "Ostatnio: odswiezono jakosc danych",
+        "body": "System sprawdzil zrodla i podstawowe dane o spolkach. Wynik: gotowe.; 23.06, 08:41",
+        "at": "2026-06-23T06:41:41.930Z",
+        "atText": "23.06, 08:41",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: uzupelniono dane cenowe",
         "body": "System pobral brakujace dane z rynku, zeby oceny mialy lepszy kontekst.; 23.06, 08:36",
         "at": "2026-06-23T06:36:36.115Z",
@@ -102,13 +109,6 @@
         "title": "Ostatnio: sprawdzono news SURG",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
         "at": "2026-06-23T06:17:17.710Z",
-        "atText": "23.06, 08:17",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono news FLOC",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 08:17",
-        "at": "2026-06-23T06:17:17.515Z",
         "atText": "23.06, 08:17",
         "tone": "history"
       }
