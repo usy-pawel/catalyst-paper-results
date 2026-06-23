@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T15:17:15.727Z",
+  "generatedAt": "2026-06-23T15:19:24.464Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -33,7 +33,7 @@
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T15:17:15.727Z",
+    "generatedAt": "2026-06-23T15:19:24.464Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
