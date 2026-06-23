@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T14:06:26.019Z",
+  "generatedAt": "2026-06-23T14:09:19.583Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -33,7 +33,7 @@
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T14:06:26.019Z",
+    "generatedAt": "2026-06-23T14:09:19.583Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
@@ -82,8 +82,8 @@
       {
         "title": "Price checks",
         "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
-        "at": "2026-06-23T14:07:00.000Z",
-        "atText": "23.06, 16:07",
+        "at": "2026-06-23T14:14:00.000Z",
+        "atText": "23.06, 16:14",
         "tone": "normal"
       },
       {
