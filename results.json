@@ -1,10 +1,24 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T12:59:50.689Z",
+  "generatedAt": "2026-06-23T13:00:04.552Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
+      {
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
+        "at": "2026-06-23T13:00:04.548Z",
+        "atText": "23.06, 15:00",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zapisano zdarzenie systemowe",
+        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.",
+        "at": "2026-06-23T13:00:04.544Z",
+        "atText": "23.06, 15:00",
+        "tone": "history"
+      },
       {
         "title": "Ostatnio: sprawdzono news AMC",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
@@ -13,24 +27,10 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zaimportowano research",
-        "body": "System dodal gotowy research i wykryl spolki: AMC.",
-        "at": "2026-06-23T12:32:48.609Z",
-        "atText": "23.06, 14:32",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono news BOLD",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
-        "at": "2026-06-23T12:32:48.605Z",
-        "atText": "23.06, 14:32",
-        "tone": "history"
-      },
-      {
         "title": "Price checks",
         "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
-        "at": "2026-06-23T13:00:00.000Z",
-        "atText": "23.06, 15:00",
+        "at": "2026-06-23T13:07:00.000Z",
+        "atText": "23.06, 15:07",
         "tone": "normal"
       },
       {
@@ -92,23 +92,23 @@
     ],
     "recentActivity": [
       {
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:00",
+        "at": "2026-06-23T13:00:04.548Z",
+        "atText": "23.06, 15:00",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: zapisano zdarzenie systemowe",
+        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 23.06, 15:00",
+        "at": "2026-06-23T13:00:04.544Z",
+        "atText": "23.06, 15:00",
+        "tone": "history"
+      },
+      {
         "title": "Ostatnio: sprawdzono news AMC",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 14:32",
         "at": "2026-06-23T12:32:48.752Z",
-        "atText": "23.06, 14:32",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: zaimportowano research",
-        "body": "System dodal gotowy research i wykryl spolki: AMC.; 23.06, 14:32",
-        "at": "2026-06-23T12:32:48.609Z",
-        "atText": "23.06, 14:32",
-        "tone": "history"
-      },
-      {
-        "title": "Ostatnio: sprawdzono news BOLD",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 14:32",
-        "at": "2026-06-23T12:32:48.605Z",
         "atText": "23.06, 14:32",
         "tone": "history"
       }
