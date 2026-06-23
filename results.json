@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:37:39.678Z",
+  "generatedAt": "2026-06-23T13:41:02.882Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -9,30 +9,30 @@
       "status": "open",
       "resultPercent": -4.85,
       "resultPercentText": "-4.85%",
-      "priceCapturedAt": "2026-06-23T13:37:27.939Z"
+      "priceCapturedAt": "2026-06-23T13:41:02.837Z"
     },
     {
       "name": "MDU RESOURCES GROUP INC",
       "ticker": "MDU",
       "status": "open",
-      "resultPercent": -0.53,
-      "resultPercentText": "-0.53%",
-      "priceCapturedAt": "2026-06-23T13:37:27.481Z"
+      "resultPercent": -0.11,
+      "resultPercentText": "-0.11%",
+      "priceCapturedAt": "2026-06-23T13:40:59.626Z"
     }
   ],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
-        "at": "2026-06-23T13:37:36.644Z",
-        "atText": "23.06, 15:37",
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
+        "at": "2026-06-23T13:41:02.876Z",
+        "atText": "23.06, 15:41",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T13:37:27.942Z",
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
+        "at": "2026-06-23T13:37:36.644Z",
         "atText": "23.06, 15:37",
         "tone": "history"
       },
@@ -102,16 +102,16 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 15:37",
-        "at": "2026-06-23T13:37:36.644Z",
-        "atText": "23.06, 15:37",
+        "title": "Ostatnio: sprawdzono aktualne ceny",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:41",
+        "at": "2026-06-23T13:41:02.876Z",
+        "atText": "23.06, 15:41",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:37",
-        "at": "2026-06-23T13:37:27.942Z",
+        "title": "Ostatnio: sprawdzono kalendarz rynku",
+        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 15:37",
+        "at": "2026-06-23T13:37:36.644Z",
         "atText": "23.06, 15:37",
         "tone": "history"
       },
