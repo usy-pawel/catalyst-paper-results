@@ -1,29 +1,29 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T12:29:27.622Z",
+  "generatedAt": "2026-06-23T12:33:15.532Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: oceniono nowe informacje",
-        "body": "System przeczytal nowe informacje i sprawdzil, czy ktoras spolka jest warta uwagi.",
-        "at": "2026-06-23T12:25:06.947Z",
-        "atText": "23.06, 14:25",
+        "title": "Ostatnio: sprawdzono news AMC",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
+        "at": "2026-06-23T12:32:48.752Z",
+        "atText": "23.06, 14:32",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono news LMFA",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
-        "at": "2026-06-23T12:25:06.946Z",
-        "atText": "23.06, 14:25",
+        "title": "Ostatnio: zaimportowano research",
+        "body": "System dodal gotowy research i wykryl spolki: AMC.",
+        "at": "2026-06-23T12:32:48.609Z",
+        "atText": "23.06, 14:32",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono news EROK",
+        "title": "Ostatnio: sprawdzono news BOLD",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
-        "at": "2026-06-23T12:25:06.775Z",
-        "atText": "23.06, 14:25",
+        "at": "2026-06-23T12:32:48.605Z",
+        "atText": "23.06, 14:32",
         "tone": "history"
       },
       {
@@ -48,8 +48,8 @@
         "tone": "normal"
       },
       {
-        "title": "Wygasaja zlecenia (44)",
-        "body": "Tickery: AMC, APM, ARCC, ARWR, BYAH, CDIX, CMBT, CMND, COFS, CUB, ELLO, FMC +32. AMC: czeka na otwarcie rynku, buy market; AMC: czeka na otwarcie rynku, buy market; FMC: czeka na otwarcie rynku, buy market; BYAH: czek...",
+        "title": "Wygasaja zlecenia (48)",
+        "body": "Tickery: ACN, ALLT, AMC, APM, ARCC, ARWR, BYAH, CDIX, CMBT, CMND, COFS, CUB +36. ALLT: czeka na otwarcie rynku, buy market; NTRA: czeka na otwarcie rynku, buy market; NTRA: czeka na otwarcie rynku, buy market; ACN: cz...",
         "at": "2026-06-23T20:00:00.000Z",
         "atText": "23.06, 22:00",
         "tone": "normal"
@@ -92,24 +92,24 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: oceniono nowe informacje",
-        "body": "System przeczytal nowe informacje i sprawdzil, czy ktoras spolka jest warta uwagi.; 23.06, 14:25",
-        "at": "2026-06-23T12:25:06.947Z",
-        "atText": "23.06, 14:25",
+        "title": "Ostatnio: sprawdzono news AMC",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 14:32",
+        "at": "2026-06-23T12:32:48.752Z",
+        "atText": "23.06, 14:32",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono news LMFA",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 14:25",
-        "at": "2026-06-23T12:25:06.946Z",
-        "atText": "23.06, 14:25",
+        "title": "Ostatnio: zaimportowano research",
+        "body": "System dodal gotowy research i wykryl spolki: AMC.; 23.06, 14:32",
+        "at": "2026-06-23T12:32:48.609Z",
+        "atText": "23.06, 14:32",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono news EROK",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 14:25",
-        "at": "2026-06-23T12:25:06.775Z",
-        "atText": "23.06, 14:25",
+        "title": "Ostatnio: sprawdzono news BOLD",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 14:32",
+        "at": "2026-06-23T12:32:48.605Z",
+        "atText": "23.06, 14:32",
         "tone": "history"
       }
     ],
@@ -119,7 +119,7 @@
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
         "items": [
           {
-            "title": "132 czeka na otwarcie rynku",
+            "title": "146 czeka na otwarcie rynku",
             "body": "Rynek: Rynek zamkniety. Powod: przed otwarciem. Nastepne otwarcie: 23.06, 15:30.",
             "at": null,
             "atText": null,
@@ -132,8 +132,29 @@
         "empty": "Brak sygnalow do oceny dzisiaj.",
         "items": [
           {
-            "title": "AMC: mocny kandydat (8.0)",
-            "body": "other: Heuristic classification for AMC: 8-K - AMC ENTERTAINMENT HOLDINGS, INC. (0001411579) (Filer)",
+            "title": "ALLT: kandydat (7.0)",
+            "body": "buyback: Allot authorized a $40 million buyback funded from cash on hand and paired it with commentary about profitable double-digit growth, giving the stoc...",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          },
+          {
+            "title": "NTRA: mocny kandydat (8.0)",
+            "body": "other: Natera disclosed that NCCN upgraded bladder-cancer guidance around Signatera-driven ctDNA-MRD use after cystectomy, building on the assay's May 202...",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          },
+          {
+            "title": "ACN: mocny kandydat (8.0)",
+            "body": "buyback: Accenture raised planned fiscal 2026 buybacks to $7.5 billion and total shareholder returns to $11.5 billion, creating a large and near-term capita...",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          },
+          {
+            "title": "VTOL: mocny kandydat (10.0)",
+            "body": "acquisition: Bristow announced a $105 million all-cash acquisition of Berry Aviation that adds government and defense aviation exposure, $108 million of target ...",
             "at": null,
             "atText": null,
             "tone": "normal"
@@ -141,13 +162,6 @@
           {
             "title": "OPITQ: obserwuj (5.0)",
             "body": "other: Heuristic classification for OPITQ: 8-K - OFFICE PROPERTIES INCOME TRUST (0001456772) (Filer)",
-            "at": null,
-            "atText": null,
-            "tone": "normal"
-          },
-          {
-            "title": "OPIRQ: obserwuj (5.0)",
-            "body": "other: Heuristic classification for OPIRQ: 8-K - OFFICE PROPERTIES INCOME TRUST (0001456772) (Filer)",
             "at": null,
             "atText": null,
             "tone": "normal"
