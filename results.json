@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:57:20.151Z",
+  "generatedAt": "2026-06-23T13:59:11.868Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -9,19 +9,19 @@
       "status": "open",
       "resultPercent": -4.53,
       "resultPercentText": "-4.53%",
-      "priceCapturedAt": "2026-06-23T13:55:31.908Z"
+      "priceCapturedAt": "2026-06-23T13:59:11.861Z"
     },
     {
       "name": "MDU RESOURCES GROUP INC",
       "ticker": "MDU",
       "status": "open",
-      "resultPercent": 0.32,
-      "resultPercentText": "0.32%",
-      "priceCapturedAt": "2026-06-23T13:55:31.773Z"
+      "resultPercent": 0.13,
+      "resultPercentText": "0.13%",
+      "priceCapturedAt": "2026-06-23T13:59:11.735Z"
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T13:57:20.151Z",
+    "generatedAt": "2026-06-23T13:59:11.868Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
@@ -49,8 +49,8 @@
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T13:55:31.910Z",
-        "atText": "23.06, 15:55",
+        "at": "2026-06-23T13:59:11.863Z",
+        "atText": "23.06, 15:59",
         "tone": "history"
       },
       {
@@ -127,9 +127,9 @@
     "recentActivity": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:55",
-        "at": "2026-06-23T13:55:31.910Z",
-        "atText": "23.06, 15:55",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:59",
+        "at": "2026-06-23T13:59:11.863Z",
+        "atText": "23.06, 15:59",
         "tone": "history"
       },
       {
