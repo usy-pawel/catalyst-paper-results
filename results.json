@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:31:07.490Z",
+  "generatedAt": "2026-06-23T13:33:48.877Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -9,15 +9,15 @@
       "status": "open",
       "resultPercent": -4.94,
       "resultPercentText": "-4.94%",
-      "priceCapturedAt": "2026-06-23T13:31:07.452Z"
+      "priceCapturedAt": "2026-06-23T13:33:48.871Z"
     },
     {
       "name": "MDU RESOURCES GROUP INC",
       "ticker": "MDU",
       "status": "open",
-      "resultPercent": -0.9,
-      "resultPercentText": "-0.90%",
-      "priceCapturedAt": "2026-06-23T13:31:06.560Z"
+      "resultPercent": -0.18,
+      "resultPercentText": "-0.18%",
+      "priceCapturedAt": "2026-06-23T13:33:48.800Z"
     }
   ],
   "dashboard": {
@@ -25,22 +25,22 @@
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T13:31:07.487Z",
-        "atText": "23.06, 15:31",
+        "at": "2026-06-23T13:33:48.874Z",
+        "atText": "23.06, 15:33",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko QUBT",
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
-        "at": "2026-06-23T13:31:05.671Z",
-        "atText": "23.06, 15:31",
+        "at": "2026-06-23T13:33:48.610Z",
+        "atText": "23.06, 15:33",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: odrzucono pomysl QUBT",
+        "title": "Ostatnio: odrzucono pomysl COFS",
         "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.",
-        "at": "2026-06-23T13:31:05.670Z",
-        "atText": "23.06, 15:31",
+        "at": "2026-06-23T13:33:48.609Z",
+        "atText": "23.06, 15:33",
         "tone": "history"
       },
       {
@@ -49,16 +49,6 @@
         "at": "2026-06-23T13:35:00.000Z",
         "atText": "23.06, 15:35",
         "tone": "normal"
-      },
-      {
-        "title": "Wygasa zlecenie COFS",
-        "body": "zaakceptowane, czeka na fill; ostatnia cena 32.080000",
-        "at": "2026-06-23T20:00:00.000Z",
-        "atText": "23.06, 22:00",
-        "tone": "normal",
-        "groupKey": "order-expiry",
-        "ticker": "COFS",
-        "summary": "zaakceptowane, czeka na fill, ostatnia cena 32.080000"
       },
       {
         "title": "Zamkniecie rynku",
@@ -113,23 +103,23 @@
     "recentActivity": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:31",
-        "at": "2026-06-23T13:31:07.487Z",
-        "atText": "23.06, 15:31",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:33",
+        "at": "2026-06-23T13:33:48.874Z",
+        "atText": "23.06, 15:33",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko QUBT",
-        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:31",
-        "at": "2026-06-23T13:31:05.671Z",
-        "atText": "23.06, 15:31",
+        "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
+        "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:33",
+        "at": "2026-06-23T13:33:48.610Z",
+        "atText": "23.06, 15:33",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: odrzucono pomysl QUBT",
-        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:31",
-        "at": "2026-06-23T13:31:05.670Z",
-        "atText": "23.06, 15:31",
+        "title": "Ostatnio: odrzucono pomysl COFS",
+        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:33",
+        "at": "2026-06-23T13:33:48.609Z",
+        "atText": "23.06, 15:33",
         "tone": "history"
       }
     ],
@@ -137,15 +127,7 @@
       {
         "title": "Czekamy na",
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
-        "items": [
-          {
-            "title": "1 zlecen w aktywnej kolejce",
-            "body": "broker/queue: 1, accepted: 1",
-            "at": null,
-            "atText": null,
-            "tone": "normal"
-          }
-        ]
+        "items": []
       },
       {
         "title": "Rozpatrujemy",
@@ -193,8 +175,8 @@
         "empty": "Brak ruchu recznego.",
         "items": [
           {
-            "title": "Nie dodawaj nic recznie",
-            "body": "Najpierw pozwol kolejce domknac aktywne kandydaty/submitted/accepted.",
+            "title": "Sprawdz najlepszego kandydata",
+            "body": "QUBT: Heuristic classification for QUBT: 8-K - Quantum Computing Inc. (0001758009) (Filer)",
             "at": null,
             "atText": null,
             "tone": "action"
