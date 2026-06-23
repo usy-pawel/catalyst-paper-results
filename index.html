@@ -19,6 +19,20 @@
     .neg { color:#b42318; }
     .empty { margin:0; background:#fff; border:1px solid #d9deea; border-radius:8px; padding:16px; color:#536071; }
     .dashboard { margin-top:22px; display:grid; gap:14px; }
+    .queue { margin-top:22px; background:#fff; border:1px solid #d9deea; border-radius:8px; padding:16px; }
+    .queue h2 { margin:0 0 12px; font-size:18px; line-height:1.2; }
+    .queue-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin-bottom:12px; }
+    .queue-metric { border:1px solid #e7eaf1; border-radius:6px; padding:10px; background:#fbfcfe; color:#536071; font-size:12px; }
+    .queue-metric b { display:block; margin-top:4px; color:#18202f; font-size:18px; line-height:1.1; }
+    .queue-list { display:grid; gap:10px; }
+    .queue-item { display:grid; grid-template-columns:48px minmax(0,1fr) auto; gap:12px; align-items:start; border:1px solid #e7eaf1; border-radius:6px; padding:11px; background:#fbfcfe; }
+    .queue-rank { color:#536071; font-size:12px; font-weight:800; }
+    .queue-item strong { display:block; font-size:15px; line-height:1.25; }
+    .queue-item p { margin:4px 0 0; color:#536071; font-size:13px; line-height:1.35; }
+    .queue-status { display:inline-flex; align-items:center; border:1px solid #d9deea; border-radius:999px; padding:4px 8px; white-space:nowrap; font-size:12px; font-weight:800; }
+    .queue-green { border-color:#a6d8bd; background:#effbf4; color:#087443; }
+    .queue-yellow { border-color:#f4d28d; background:#fff8e6; color:#8a5a00; }
+    .queue-red { border-color:#f3b4ae; background:#fff3f1; color:#b42318; }
     .dashboard-section, .dashboard-lane { background:#fff; border:1px solid #d9deea; border-radius:8px; padding:16px; }
     .dashboard-section h2, .dashboard-lane h2 { margin:0 0 12px; font-size:18px; line-height:1.2; }
     .dashboard-events, .dashboard-list { display:grid; gap:10px; }
@@ -33,6 +47,8 @@
     .dashboard-action { border-color:#b8d0e8; background:#f0f8ff; }
     @media (max-width: 720px) {
       body { padding:16px; }
+      .queue-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .queue-item { grid-template-columns:1fr; }
       .dashboard-board { grid-template-columns:1fr; }
       .dashboard-event { grid-template-columns:1fr; }
     }
@@ -40,7 +56,7 @@
 </head>
 <body>
   <main>
-    <p class="meta" data-updated>Ostatnia aktualizacja: 23.06.2026, 15:45:09</p>
+    <p class="meta" data-updated>Ostatnia aktualizacja: 23.06.2026, 15:46:01</p>
     <section class="list" data-results-list>
         <div class="row">
           <div>
@@ -56,8 +72,30 @@
           </div>
           <b class="neg">-0.20%</b>
         </div></section>
+    <section class="queue" data-public-queue>
+    <h2>Queue / open plan</h2>
+    <div class="queue-grid">
+      <div class="queue-metric">Market<b>otwarty (regular_session)</b></div>
+      <div class="queue-metric">Total<b>0</b></div>
+      <div class="queue-metric">Selected<b>0</b></div>
+      <div class="queue-metric">Blocked<b>0</b></div>
+      <div class="queue-metric">Duplicate<b>0</b></div>
+      <div class="queue-metric">Capacity<b>0</b></div>
+      <div class="queue-metric">Exposure<b>200 EUR</b></div>
+      <div class="queue-metric">Limit<b>300 EUR</b></div>
+    </div>
+    <p class="dashboard-empty">Queue jest pusta. Nie ma aktywnych kandydatow ani open-planu.</p>
+  </section>
     <div class="dashboard" data-public-dashboard>
     <section class="dashboard-section"><h2>Nastepne 24h</h2><div class="dashboard-events">
+      <div class="dashboard-event dashboard-history">
+        <time>23.06, 15:45</time>
+        <div>
+          <strong>Ostatnio: sprawdzono kalendarz rynku</strong>
+          <p>System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.</p>
+        </div>
+      </div>
+    
       <div class="dashboard-event dashboard-history">
         <time>23.06, 15:44</time>
         <div>
@@ -71,14 +109,6 @@
         <div>
           <strong>Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS</strong>
           <p>System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.</p>
-        </div>
-      </div>
-    
-      <div class="dashboard-event dashboard-history">
-        <time>23.06, 15:33</time>
-        <div>
-          <strong>Ostatnio: odrzucono pomysl COFS</strong>
-          <p>System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.</p>
         </div>
       </div>
     
@@ -146,13 +176,14 @@
         </div>
       </div>
     </div></section>
-    <section class="dashboard-section"><h2>Ostatnio w systemie</h2><div class="dashboard-list"><div class="dashboard-item dashboard-history"><strong>Ostatnio: sprawdzono aktualne ceny</strong><p>System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:44</p></div><div class="dashboard-item dashboard-history"><strong>Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS</strong><p>System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:33</p></div><div class="dashboard-item dashboard-history"><strong>Ostatnio: odrzucono pomysl COFS</strong><p>System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:33</p></div></div></section>
+    <section class="dashboard-section"><h2>Ostatnio w systemie</h2><div class="dashboard-list"><div class="dashboard-item dashboard-history"><strong>Ostatnio: sprawdzono kalendarz rynku</strong><p>System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 15:45</p></div><div class="dashboard-item dashboard-history"><strong>Ostatnio: sprawdzono aktualne ceny</strong><p>System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:44</p></div><div class="dashboard-item dashboard-history"><strong>Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS</strong><p>System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:33</p></div></div></section>
     <div class="dashboard-board"><section class="dashboard-lane"><h2>Czekamy na</h2><p class="dashboard-empty">Nic konkretnego nie czeka. System jest w trybie obserwacji.</p></section><section class="dashboard-lane"><h2>Rozpatrujemy</h2><div class="dashboard-list"><div class="dashboard-item"><strong>QUBT: mocny kandydat (8.0)</strong><p>other: Heuristic classification for QUBT: 8-K - Quantum Computing Inc. (0001758009) (Filer)</p></div><div class="dashboard-item"><strong>SGMO: kandydat (7.0)</strong><p>other: Heuristic classification for SGMO: 8-K - SANGAMO THERAPEUTICS, INC (0001001233) (Filer)</p></div><div class="dashboard-item"><strong>HSCS: kandydat (7.0)</strong><p>other: Heuristic classification for HSCS: 8-K - HeartSciences Inc. (0001468492) (Filer)</p></div><div class="dashboard-item"><strong>KRP: obserwuj (6.0)</strong><p>other: Heuristic classification for KRP: 8-K - Kimbell Royalty Partners, LP (0001657788) (Filer)</p></div><div class="dashboard-item"><strong>HSCSW: obserwuj (5.0)</strong><p>other: Heuristic classification for HSCSW: 8-K - HeartSciences Inc. (0001468492) (Filer)</p></div></div></section><section class="dashboard-lane"><h2>Nastepny ruch</h2><div class="dashboard-list"><div class="dashboard-item dashboard-action"><strong>Sprawdz najlepszego kandydata</strong><p>QUBT: Heuristic classification for QUBT: 8-K - Quantum Computing Inc. (0001758009) (Filer)</p></div></div></section></div>
   </div>
   </main>
   <script>
     const list = document.querySelector("[data-results-list]");
     const updated = document.querySelector("[data-updated]");
+    const queue = document.querySelector("[data-public-queue]");
     const dashboard = document.querySelector("[data-public-dashboard]");
     const escapeText = (value) => String(value ?? "")
       .replaceAll("&", "&amp;")
@@ -177,6 +208,7 @@
       list.innerHTML = snapshot.positions.length
         ? snapshot.positions.map(renderPosition).join("")
         : '<p class="empty">No open paper positions.</p>';
+      renderQueue(snapshot.queue);
       renderDashboard(snapshot.dashboard);
     };
     const formatPolishDateTime = (value) => {
@@ -203,6 +235,51 @@
           </div>`;
       }
       return `<div class="dashboard-item${tone}"><strong>${escapeText(item.title)}</strong><p>${escapeText(item.body)}</p></div>`;
+    };
+    const queueStatusClass = (status) => {
+      if (status === "selected" || status === "waiting_market_open") return "queue-green";
+      if (status === "capacity_pruned" || status === "duplicate_ticker_pruned") return "queue-yellow";
+      return "queue-red";
+    };
+    const queueMarketLabel = (data) => {
+      const reason = data?.market?.reason ?? "unknown";
+      return data?.market?.isOpen ? `otwarty (${reason})` : `zamkniety (${reason})`;
+    };
+    const queueCandidateDetail = (candidate) => {
+      const blockers = candidate.knownBlockers?.length ? `blokery: ${candidate.knownBlockers.join(", ")}` : "brak znanych blokerow";
+      const bars = candidate.latestRegularSessionBarClosedAt ?? candidate.latestBarStart ?? "n/a";
+      return `${candidate.phase} / ${candidate.orderType}; score ${Number(candidate.score ?? 0).toFixed(2)}; bars ${candidate.marketDataStatus ?? "unknown"} ${bars}; ${blockers}`;
+    };
+    const renderQueueCandidate = (candidate) => `
+      <div class="queue-item">
+        <div class="queue-rank">#${escapeText(candidate.rank)}</div>
+        <div>
+          <strong>${escapeText(candidate.ticker)} · ${escapeText(candidate.strategyKey)}</strong>
+          <p>${escapeText(queueCandidateDetail(candidate))}</p>
+          <p>${escapeText(candidate.expectedAction ?? "")}</p>
+        </div>
+        <span class="queue-status ${queueStatusClass(candidate.selectionStatus)}">${escapeText(candidate.selectionStatus)}</span>
+      </div>`;
+    const renderQueue = (data) => {
+      if (!queue || !data) return;
+      const summary = data.summary ?? {};
+      const rows = data.candidates?.length
+        ? `<div class="queue-list">${data.candidates.map(renderQueueCandidate).join("")}</div>`
+        : '<p class="dashboard-empty">Queue jest pusta. Nie ma aktywnych kandydatow ani open-planu.</p>';
+      queue.innerHTML = `
+        <h2>Queue / open plan</h2>
+        <div class="queue-grid">
+          <div class="queue-metric">Market<b>${escapeText(queueMarketLabel(data))}</b></div>
+          <div class="queue-metric">Total<b>${escapeText(summary.total ?? 0)}</b></div>
+          <div class="queue-metric">Selected<b>${escapeText(summary.selected ?? 0)}</b></div>
+          <div class="queue-metric">Blocked<b>${escapeText(summary.blocked_known ?? 0)}</b></div>
+          <div class="queue-metric">Duplicate<b>${escapeText(summary.duplicate_ticker_pruned ?? 0)}</b></div>
+          <div class="queue-metric">Capacity<b>${escapeText(summary.capacity_pruned ?? 0)}</b></div>
+          <div class="queue-metric">Exposure<b>${escapeText(data.limits?.openExposureEur ?? 0)} EUR</b></div>
+          <div class="queue-metric">Limit<b>${escapeText(data.limits?.maxPortfolioExposureEur ?? 0)} EUR</b></div>
+        </div>
+        ${rows}
+      `;
     };
     const renderDashboard = (data) => {
       if (!dashboard || !data) return;
