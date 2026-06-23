@@ -1,29 +1,29 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T12:21:51.139Z",
+  "generatedAt": "2026-06-23T12:25:39.872Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
-        "title": "Ostatnio: sprawdzono news HOOD",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
-        "at": "2026-06-23T07:43:44.348Z",
-        "atText": "23.06, 09:43",
+        "title": "Ostatnio: oceniono nowe informacje",
+        "body": "System przeczytal nowe informacje i sprawdzil, czy ktoras spolka jest warta uwagi.",
+        "at": "2026-06-23T12:25:06.947Z",
+        "atText": "23.06, 14:25",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zaimportowano research",
-        "body": "System dodal gotowy research i wykryl spolki: HOOD.",
-        "at": "2026-06-23T07:43:44.208Z",
-        "atText": "23.06, 09:43",
+        "title": "Ostatnio: sprawdzono news LMFA",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
+        "at": "2026-06-23T12:25:06.946Z",
+        "atText": "23.06, 14:25",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono news ENTX",
+        "title": "Ostatnio: sprawdzono news EROK",
         "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.",
-        "at": "2026-06-23T07:43:44.204Z",
-        "atText": "23.06, 09:43",
+        "at": "2026-06-23T12:25:06.775Z",
+        "atText": "23.06, 14:25",
         "tone": "history"
       },
       {
@@ -48,8 +48,8 @@
         "tone": "normal"
       },
       {
-        "title": "Wygasaja zlecenia (30)",
-        "body": "Tickery: APM, ARCC, ARWR, CDIX, CMBT, CMND, COFS, CUB, ELLO, HCWB, HIVE, HNVR +18. ORC: czeka na otwarcie rynku, buy market; PLBY: czeka na otwarcie rynku, buy market; PLBY: czeka na otwarcie rynku, buy market; PSA: c...",
+        "title": "Wygasaja zlecenia (44)",
+        "body": "Tickery: AMC, APM, ARCC, ARWR, BYAH, CDIX, CMBT, CMND, COFS, CUB, ELLO, FMC +32. AMC: czeka na otwarcie rynku, buy market; AMC: czeka na otwarcie rynku, buy market; FMC: czeka na otwarcie rynku, buy market; BYAH: czek...",
         "at": "2026-06-23T20:00:00.000Z",
         "atText": "23.06, 22:00",
         "tone": "normal"
@@ -92,24 +92,24 @@
     ],
     "recentActivity": [
       {
-        "title": "Ostatnio: sprawdzono news HOOD",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 09:43",
-        "at": "2026-06-23T07:43:44.348Z",
-        "atText": "23.06, 09:43",
+        "title": "Ostatnio: oceniono nowe informacje",
+        "body": "System przeczytal nowe informacje i sprawdzil, czy ktoras spolka jest warta uwagi.; 23.06, 14:25",
+        "at": "2026-06-23T12:25:06.947Z",
+        "atText": "23.06, 14:25",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: zaimportowano research",
-        "body": "System dodal gotowy research i wykryl spolki: HOOD.; 23.06, 09:43",
-        "at": "2026-06-23T07:43:44.208Z",
-        "atText": "23.06, 09:43",
+        "title": "Ostatnio: sprawdzono news LMFA",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 14:25",
+        "at": "2026-06-23T12:25:06.946Z",
+        "atText": "23.06, 14:25",
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono news ENTX",
-        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 09:43",
-        "at": "2026-06-23T07:43:44.204Z",
-        "atText": "23.06, 09:43",
+        "title": "Ostatnio: sprawdzono news EROK",
+        "body": "System ocenil, czy ta informacja jest warta uwagi. Wynik: nie warto nic robic teraz.; 23.06, 14:25",
+        "at": "2026-06-23T12:25:06.775Z",
+        "atText": "23.06, 14:25",
         "tone": "history"
       }
     ],
@@ -119,7 +119,7 @@
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
         "items": [
           {
-            "title": "80 czeka na otwarcie rynku",
+            "title": "132 czeka na otwarcie rynku",
             "body": "Rynek: Rynek zamkniety. Powod: przed otwarciem. Nastepne otwarcie: 23.06, 15:30.",
             "at": null,
             "atText": null,
@@ -132,36 +132,22 @@
         "empty": "Brak sygnalow do oceny dzisiaj.",
         "items": [
           {
-            "title": "ORC: kandydat (7.0)",
-            "body": "buyback: Orchid Island Capital expanded its repurchase authorization and guided to a higher June book value range, creating a concrete buyback-and-book-valu...",
+            "title": "AMC: mocny kandydat (8.0)",
+            "body": "other: Heuristic classification for AMC: 8-K - AMC ENTERTAINMENT HOLDINGS, INC. (0001411579) (Filer)",
             "at": null,
             "atText": null,
             "tone": "normal"
           },
           {
-            "title": "PLBY: mocny kandydat (10.0)",
-            "body": "buyback: PLBY announced a $17.4 million repurchase of 16.6 million shares at a stated 28% discount to market value, creating a concrete buyback catalyst wit...",
+            "title": "OPITQ: obserwuj (5.0)",
+            "body": "other: Heuristic classification for OPITQ: 8-K - OFFICE PROPERTIES INCOME TRUST (0001456772) (Filer)",
             "at": null,
             "atText": null,
             "tone": "normal"
           },
           {
-            "title": "PSA: mocny kandydat (9.0)",
-            "body": "acquisition: Public Storage announced a CAD 2.2 billion strategic acquisition that establishes a direct Canadian platform, while the first-session price reactio...",
-            "at": null,
-            "atText": null,
-            "tone": "normal"
-          },
-          {
-            "title": "MGNX: mocny kandydat (8.0)",
-            "body": "financing_secured: MacroGenics disclosed a $24.5 million Sanofi milestone triggered by the recent TZIELD approval, creating a concrete cash catalyst, but the stock ha...",
-            "at": null,
-            "atText": null,
-            "tone": "normal"
-          },
-          {
-            "title": "ARWR: mocny kandydat (11.0)",
-            "body": "other: Arrowhead received European marketing authorization for REDEMPLO, removing a major regulatory hurdle for a first-in-class apoC-III therapy while th...",
+            "title": "OPIRQ: obserwuj (5.0)",
+            "body": "other: Heuristic classification for OPIRQ: 8-K - OFFICE PROPERTIES INCOME TRUST (0001456772) (Filer)",
             "at": null,
             "atText": null,
             "tone": "normal"
