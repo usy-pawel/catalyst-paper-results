@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:48:15.885Z",
+  "generatedAt": "2026-06-23T13:49:40.862Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -21,7 +21,7 @@
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T13:48:15.885Z",
+    "generatedAt": "2026-06-23T13:49:40.862Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
@@ -54,13 +54,6 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.",
-        "at": "2026-06-23T13:45:58.553Z",
-        "atText": "23.06, 15:45",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.",
         "at": "2026-06-23T13:33:48.610Z",
@@ -68,10 +61,17 @@
         "tone": "history"
       },
       {
+        "title": "Ostatnio: odrzucono pomysl COFS",
+        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.",
+        "at": "2026-06-23T13:33:48.609Z",
+        "atText": "23.06, 15:33",
+        "tone": "history"
+      },
+      {
         "title": "Price checks",
         "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
-        "at": "2026-06-23T13:49:00.000Z",
-        "atText": "23.06, 15:49",
+        "at": "2026-06-23T13:56:00.000Z",
+        "atText": "23.06, 15:56",
         "tone": "normal"
       },
       {
@@ -133,16 +133,16 @@
         "tone": "history"
       },
       {
-        "title": "Ostatnio: sprawdzono kalendarz rynku",
-        "body": "System upewnil sie, kiedy rynek w USA jest otwarty. Wynik: gotowe.; 23.06, 15:45",
-        "at": "2026-06-23T13:45:58.553Z",
-        "atText": "23.06, 15:45",
-        "tone": "history"
-      },
-      {
         "title": "Ostatnio: zatrzymano pomysl ze wzgledu na ryzyko COFS",
         "body": "System uznal, ze warunki nie sa bezpieczne. Wynik: nic dalej nie zrobil.; 23.06, 15:33",
         "at": "2026-06-23T13:33:48.610Z",
+        "atText": "23.06, 15:33",
+        "tone": "history"
+      },
+      {
+        "title": "Ostatnio: odrzucono pomysl COFS",
+        "body": "System sprawdzil warunki i uznal, ze nie warto tego teraz ruszac.; 23.06, 15:33",
+        "at": "2026-06-23T13:33:48.609Z",
         "atText": "23.06, 15:33",
         "tone": "history"
       }
