@@ -1,22 +1,22 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T13:03:42.139Z",
+  "generatedAt": "2026-06-23T13:07:19.698Z",
   "positions": [],
   "dashboard": {
     "upcoming": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
         "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.",
-        "at": "2026-06-23T13:03:42.136Z",
-        "atText": "23.06, 15:03",
+        "at": "2026-06-23T13:07:19.692Z",
+        "atText": "23.06, 15:07",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zapisano zdarzenie systemowe",
         "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.",
-        "at": "2026-06-23T13:03:42.133Z",
-        "atText": "23.06, 15:03",
+        "at": "2026-06-23T13:07:19.687Z",
+        "atText": "23.06, 15:07",
         "tone": "history"
       },
       {
@@ -29,8 +29,8 @@
       {
         "title": "Price checks",
         "body": "Kontrole cen i aktywnej kolejki co 3,5 minuty w oknie 15:00-21:59.",
-        "at": "2026-06-23T13:07:00.000Z",
-        "atText": "23.06, 15:07",
+        "at": "2026-06-23T13:14:00.000Z",
+        "atText": "23.06, 15:14",
         "tone": "normal"
       },
       {
@@ -93,16 +93,16 @@
     "recentActivity": [
       {
         "title": "Ostatnio: sprawdzono aktualne ceny",
-        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:03",
-        "at": "2026-06-23T13:03:42.136Z",
-        "atText": "23.06, 15:03",
+        "body": "System sprawdzil ceny rzeczy, ktore byly w kolejce. Wynik: gotowe.; 23.06, 15:07",
+        "at": "2026-06-23T13:07:19.692Z",
+        "atText": "23.06, 15:07",
         "tone": "history"
       },
       {
         "title": "Ostatnio: zapisano zdarzenie systemowe",
-        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 23.06, 15:03",
-        "at": "2026-06-23T13:03:42.133Z",
-        "atText": "23.06, 15:03",
+        "body": "System zapisal cos w historii. Szczegoly sa dostepne w audycie.; 23.06, 15:07",
+        "at": "2026-06-23T13:07:19.687Z",
+        "atText": "23.06, 15:07",
         "tone": "history"
       },
       {
