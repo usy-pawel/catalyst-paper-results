@@ -1,7 +1,7 @@
 {
   "kind": "catalyst_radar_public_results",
   "paperOnly": true,
-  "generatedAt": "2026-06-23T14:01:51.562Z",
+  "generatedAt": "2026-06-23T14:02:21.650Z",
   "positions": [
     {
       "name": "Neo-Concept International Group Holdings Ltd",
@@ -33,7 +33,7 @@
     }
   ],
   "queue": {
-    "generatedAt": "2026-06-23T14:01:51.562Z",
+    "generatedAt": "2026-06-23T14:02:21.650Z",
     "market": {
       "isOpen": true,
       "reason": "regular_session",
@@ -163,7 +163,15 @@
       {
         "title": "Czekamy na",
         "empty": "Nic konkretnego nie czeka. System jest w trybie obserwacji.",
-        "items": []
+        "items": [
+          {
+            "title": "1 blokad gate",
+            "body": "Market calendar is missing or stale.",
+            "at": null,
+            "atText": null,
+            "tone": "normal"
+          }
+        ]
       },
       {
         "title": "Rozpatrujemy",
